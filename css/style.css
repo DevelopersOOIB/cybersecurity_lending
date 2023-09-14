@@ -1,1 +1,52 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1840px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Gotham Pro Light";
+  src: url("../fonts/GothamPro-Light.eot");
+  src: url("../fonts/GothamPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Light.woff") format("woff"), url("../fonts/GothamPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro Black";
+  src: url("../fonts/GothamPro-Black.eot");
+  src: url("../fonts/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Black.woff") format("woff"), url("../fonts/GothamPro-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gotham Pro Light", sans-serif;
+  background: #161616;
+  color: #fff;
+}
+
+.button-b {
+  background: #0062C8;
+}
+
+.bar-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 160px;
+}
+.bar__mail, .bar__logo-telegram, .bar__button {
+  text-align: right;
+  color: #fff;
+}
+.bar__logo {
+  margin-right: 60px;
+}
+.bar__button {
+  font-family: "Gotham Pro Black", sans-serif;
+  border-radius: 60px;
+  padding: 20px 70px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
