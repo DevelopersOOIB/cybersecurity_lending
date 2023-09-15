@@ -5,30 +5,81 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header class="header">
-            <div class="bar">
-                <div class="container">
-                    <div class="bar-wrap">
-                        <img class="bar__logo" src="img/cib.png">
-                        <img class="bar__logo" src="img/PT.svg">
-                        <img class="bar__logo" src="img/DVFU.png">
-                        <a class="bar__mail" href="mailto:dpo-ib@dvfu.ru">dpo-ib@dvfu.ru</a>
-                        <a class="bar__logo-telegram" href="http://t.me/Kostetos"><img src="img/telegram.svg"></a>
-                        <button class="button-b bar__button">ЗАПИСАТЬСЯ</button>
+            <div class="nav">
+                <div class="container-fluid mx-auto">
+                    <div class="row">
+                        <div class="col-4 my-auto">
+                            <a href="" class="link-underline link-underline-opacity-0 nav__padd">
+                                    <img class="logo-CIB" src="img/cib.png">                 
+                                </a>
+                                <a href="https://www.ptsecurity.com/" class="link-underline link-underline-opacity-0 nav__padd">
+                                    <img class="logo-PT" src="img/PT.svg">                
+                                </a>
+                                <a href="https://www.dvfu.ru/" class="link-underline link-underline-opacity-0">
+                                    <img class="logo-DVFU" src="img/DVFU.png">                   
+                                </a>
+                        </div>
+                        <div class="offset-4 col-2 my-auto ">
+                            <a class="link-light link-offset-2 link-underline-opacity-100 text-end" href="mailto:dpo-ib@dvfu.ru">dpo-ib@dvfu.ru</a>
+                            <a href="http://t.me/Kostetos" class="link-underline link-underline-opacity-0">
+                                <svg class="mx-5" width="68" height="68" viewBox="0 0 75 75">
+                                    <path d="m34,5 a34,34,0,0,0,0,68 a-34,-34,0,0,0,0,-68 z" fill="#0062C8"/>
+                                    <path d="M15.3904 37.1756C25.3035 32.4692 31.9123 29.3661 35.2166 27.8669C44.6623 23.5861 46.6226 22.8426 47.9029 22.8174C48.1844 22.8125 48.8113 22.8884 49.2204 23.2488C49.5604 23.5528 49.656 23.9639 49.7038 24.2526C49.7463 24.5409 49.8048 25.1981 49.757 25.7112C49.247 31.5711 47.0316 45.7912 45.9054 52.3546C45.4326 55.1317 44.4923 56.0628 43.5838 56.1537C41.6076 56.3517 40.1095 54.7315 38.197 53.3656C35.206 51.2272 33.5166 49.8966 30.6107 47.8103C27.2532 45.3991 29.4313 44.0737 31.3438 41.9081C31.8432 41.3412 40.5451 32.7164 40.7098 31.9341C40.731 31.8363 40.7523 31.4715 40.5504 31.2792C40.3538 31.0864 40.0616 31.1524 39.8491 31.2045C39.5463 31.2787 34.7704 34.7228 25.5054 41.5364C24.1507 42.552 22.9235 43.0471 21.8185 43.021C20.6073 42.9927 18.2698 42.2729 16.5326 41.658C14.4076 40.9035 12.7129 40.5045 12.8616 39.2231C12.936 38.556 13.7807 37.8734 15.3904 37.1756Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-2 text-end">
+                            <button type="button" class="btn">ЗАПИСАТЬСЯ</button>
+                        </div>
+                    </div>                    
+                    <!-- /.row -->
+                </div>
+                <!-- /.container --> 
+            </div>
+            <!-- /.nav -->
+            <div class="main">
+                <div class="container-fluid my-4">
+                    <div class="row">
+                        <h1 class="offset-1 col-10 main__title">
+                            АДМИНИСТРИРОВАНИЕ И БЕЗОПАСНОСТЬ КОМПЬЮТЕРНЫХ СИСТЕМ
+                        </h1>
+                        <p class="offset-1 col-6 main__text my-5">
+                            ПЕРВАЯ ПАРТНЕРСКАЯ ПРОГРАММА ДВФУ С ОДНИМ <br>ИЗ ЛИДЕРОВ В СФЕРЕ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ
+                        </p>                                               
                     </div>
-                    <!-- /.bar-wrap -->
+                    <div class="row">
+                        <div class="offset-1 col-2 text-center">
+                            <button type="button" class="btn">ЗАПИСАТЬСЯ</button>
+                        </div>
+                        <div class="col-2 text-end">
+                            <button type="button" class="btn btn-o">ВИДЕО О КУРСЕ</button>
+                        </div>
+                    </div>
+                    <div class="row main__start">
+                        <p class="offset-1 col-4 main__title2">
+                            <span class="text-center">СТАРТ ПОТОКА <b>1 ОКТЯБРЯ 2023</b></span><br>                            
+                            <span class="text-start small">ЗАПИСЬ ДО 20 СЕНТЯБРЯ 2023</span>                            
+                        </p>                        
+                    </div>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="hero">
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- /.container -->
             </div>
-            <!-- /.bar -->
-            <div class="hero"></div>
-            <!-- /.hero -->
+            <!-- /.main -->
         </header>
-        <!-- /.header -->    
-        <script src="" async defer></script>
+        <!-- /.header -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
