@@ -16,21 +16,30 @@ body {
   font-family: "Gotham Pro Light", sans-serif;
   background: #161616;
   color: #fff;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .nav {
-  padding-top: 57px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 57px;
+  
+  display: flex;  
+  padding-top: min(57px);
+  padding-left: min(40px);
+  padding-right: min(40px);
+  padding-bottom: min(114px);
 }
 
 .nav__padd {
   padding-right: 60px;
 }
 
-.main {
+.nav__mail {
+  padding-right: 40px;
+}
 
+.main {
+  padding-left: 175px;
+  padding-right: 175px;
 }
 
 h1 {
@@ -49,11 +58,18 @@ h2, h3, h4, h5, h6 {
 }
 
 .main__text {
+  padding-top: 220px;
+  padding-bottom: 50px;
   font-size: 25px;
 }
 
 .main__start {
   padding-top: 140px;
+}
+
+.main__padd {
+  padding-top: 334px;
+  padding-right: 20px;
 }
 
 .main__title2 {
@@ -72,6 +88,7 @@ h2, h3, h4, h5, h6 {
 
 .main__title2 b {
   font-family: "Gotham Pro Black", sans-serif;
+  font-size: 20px;
 }
 
 
@@ -103,13 +120,13 @@ h2, h3, h4, h5, h6 {
   font-size: 17px;  
   background: #fff;
   color: #000;
+  display: flex;
 }
-/* 
+
 .hero {
   background: url("../img/hero.svg") no-repeat right top;
-  width: 850px;
-  height: 827px;
-  
-} */
-
+  width: 125%;
+  height: 100%; 
+}
+#fish {padding: 0px, 175px, 60px, 899px; position:relative}
 /*# sourceMappingURL=style.css.map */
