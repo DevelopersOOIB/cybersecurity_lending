@@ -58,7 +58,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .main__text {
-  padding-top: 220px;
+  padding-top: 190px;
   padding-bottom: 50px;
   font-size: 25px;
 }
@@ -88,9 +88,8 @@ h2, h3, h4, h5, h6 {
 
 .main__title2 b {
   font-family: "Gotham Pro Black", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
-
 
 .img {
   display: block;
@@ -117,7 +116,7 @@ h2, h3, h4, h5, h6 {
 
 .btn-o {
   font-family: "Gotham Pro Light", sans-serif;
-  font-size: 17px;  
+  font-size: 20px;  
   background: #fff;
   color: #000;
   display: flex;
@@ -129,4 +128,30 @@ h2, h3, h4, h5, h6 {
   height: 100%; 
 }
 #fish {padding: 0px, 175px, 60px, 899px; position:relative}
+
+.main__hero {
+  padding-bottom: 140px;
+}
+
+.main__price {
+  padding-top: 90px;
+}
+
+.hand {
+  background: url("../img/hand.png") no-repeat left top;
+  position: absolute;
+  width: 354px;
+  height: 364px;
+  top: 995px;
+}
+
+.price {
+  background: url("../img/price2.png") no-repeat center;
+  width: 1596px;
+  height: 399px;
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */
