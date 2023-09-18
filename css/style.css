@@ -91,6 +91,21 @@ h2, h3, h4, h5, h6 {
   font-size: 25px;
 }
 
+.main__for-whom {
+  padding-top: 224px;
+}
+
+.for-whom__padd {
+  padding-top: 76px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.for-whom__N {
+  font-size: 50px;
+  font-weight:bold;
+}
+
 .img {
   display: block;
   max-width: 100%;
