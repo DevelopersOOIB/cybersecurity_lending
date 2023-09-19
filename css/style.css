@@ -41,7 +41,7 @@ body {
   padding-right: 175px;
 }
 
-.who, .why, .consultation, .program {
+.who, .why, .consultation, .program, .req {
   padding-left: 175px;
   padding-right: 175px;
 }
@@ -280,6 +280,71 @@ h2, h3, h4, h5, h6 {
   width: 537px;
   height: 527px;
   top: 6100px;
+}
+
+.req__text {
+  font-family: "Gotham Pro Light", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.req__title {
+  font-size: 15px;
+}
+
+.title__tt {
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 15px;
+}
+
+.border-w {
+  border-radius: 30px;
+  padding-top: 32px;
+  padding-left: 36px;
+  /* padding-bottom: 30px;
+  padding-right: 45px; */
+}
+
+.border-os {
+  width: 480px;
+  height: 280px;
+}
+
+.border-hdd {
+  width: 235px;
+  height: 143px;
+}
+
+.border-ram {
+  width: 235px;
+  height: 119px;
+}
+
+.border-cpu {
+  width: 477px;
+  height: 143px;
+}
+
+.border-vm {
+  width: 477px;
+  height: 119px;
+}
+
+.border-po {
+  width: 1220px;
+  height: 250px;
+}
+
+.hdd, .cpu, .tth {
+  padding-bottom: 20px;
+}
+
+.hdd, .ram {
+  padding-right: 15px;
+}
+
+.hdd, .ram{
+  padding-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
