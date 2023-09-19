@@ -41,7 +41,7 @@ body {
   padding-right: 175px;
 }
 
-.who, .why, .consultation, .program, .req {
+.who, .why, .consultation, .program, .req, .lector, .resume {
   padding-left: 175px;
   padding-right: 175px;
 }
@@ -299,8 +299,8 @@ h2, h3, h4, h5, h6 {
 
 .border-w {
   border-radius: 30px;
-  padding-top: 32px;
-  padding-left: 36px;
+  padding-top: 20px;
+  padding-left: 30px;
   /* padding-bottom: 30px;
   padding-right: 45px; */
 }
@@ -345,6 +345,52 @@ h2, h3, h4, h5, h6 {
 
 .hdd, .ram{
   padding-left: 15px;
+}
+
+.lector {
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
+
+.lector__text {
+  font-family: "Gotham Pro Black", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.lector__titile {
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 20px;
+}
+
+.hero__2 {
+  background: url('../img/hero2.png') no-repeat left top;
+  width: 640px;
+  height: 701px;
+}
+
+.resume__con {
+  padding-top: 170px;
+}
+
+
+.resume__padd {
+  padding-top: 76px;
+  font-weight: bold;
+}
+
+.resume__resume {
+  font-size: 30px;
+}
+
+.line {
+  width: 600px;
+}
+
+.resume__text {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
