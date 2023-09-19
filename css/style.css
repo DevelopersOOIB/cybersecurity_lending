@@ -20,8 +20,7 @@ body {
   margin: 0 auto;
 }
 
-.nav {
-  
+.nav {  
   display: flex;  
   padding-top: min(57px);
   padding-left: min(40px);
@@ -42,14 +41,22 @@ body {
   padding-right: 175px;
 }
 
-.who {
+.who, .why, .consultation, .program {
   padding-left: 175px;
   padding-right: 175px;
 }
 
+.why {
+  padding-top: 210px;
+}
+
+.why h1 {
+  padding-bottom: 110px;
+}
+
 h1 {
   font-family: "Gotham Pro Black", sans-serif;
-  font-size: 60xp;
+  font-size: 60px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -179,6 +186,100 @@ h2, h3, h4, h5, h6 {
   top: 1734px;
 }
 
+.phone {
+  background: url("../img/phone.png") no-repeat left top;
+  position: absolute;
+  width: 831px;
+  height: 937px;
+  top: 2300px;
+}
 
+.why__header {
+  font-family: "Gotham Pro Black", sans-serif;
+  font-size: 25px;
+}
+
+.why__plus {
+  width: 83px;
+  height: 83px;
+  padding-right: 170px;
+}
+
+.why-row {
+  padding-bottom: 75px;
+}
+
+.why__intro {
+  font-size: 20px;
+}
+
+.blue__line {
+  background: url("../img/blue__line.png") no-repeat center center;
+  position: absolute;
+  width: 1920px;
+  height: 542px;
+  top: 3435px;
+}
+
+.consultation__padd {
+  padding-top: 110px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.con__padd {
+  padding-top: 160px;
+  padding-left: 120px;
+}
+
+.con__btn {
+  font-weight: normal;
+  font-size: 25px;
+  width: 615px;
+  height: 94px;
+  padding: 20px 70px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 60px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.program {
+  padding-top: 230px;
+}
+
+.program p {
+  font-family: "Gotham Pro Black", sans-serif;
+  font-size: 25px;
+}
+
+.btn-program {
+  font-weight: normal;
+  font-size: 20px;
+  width: 500px;
+  height: 68px;
+  /* padding: 20px 40px; */
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 60px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.program-btn__padd {
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
+
+.lock__left {
+  background: url("../img/locks__left.png") no-repeat left top;
+  position: absolute;
+  width: 537px;
+  height: 527px;
+  top: 6100px;
+}
 
 /*# sourceMappingURL=style.css.map */
