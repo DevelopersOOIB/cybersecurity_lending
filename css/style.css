@@ -12,6 +12,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: "Gotham Pro Light", sans-serif;
   background: #161616;
@@ -41,7 +42,7 @@ body {
   padding-right: 175px;
 }
 
-.who, .why, .consultation, .program, .req, .lector, .resume {
+.who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions {
   padding-left: 175px;
   padding-right: 175px;
 }
@@ -143,7 +144,8 @@ h2, h3, h4, h5, h6 {
 
 .btn-o {
   font-family: "Gotham Pro Light", sans-serif;
-  font-size: 20px;  
+  font-weight: bold;
+  font-size: 16px;  
   background: #fff;
   color: #000;
   display: flex;
@@ -260,7 +262,6 @@ h2, h3, h4, h5, h6 {
   font-size: 20px;
   width: 500px;
   height: 68px;
-  /* padding: 20px 40px; */
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -375,6 +376,9 @@ h2, h3, h4, h5, h6 {
   padding-top: 170px;
 }
 
+.resume {
+  padding-bottom: 240px;
+}
 
 .resume__padd {
   padding-top: 76px;
@@ -391,6 +395,120 @@ h2, h3, h4, h5, h6 {
 
 .resume__text {
   font-size: 25px;
+}
+
+.col__price {
+  padding-bottom: 50px;
+}
+
+.price__form {
+  font-family: "Gotham Pro light", sans-serif;
+  font-size: 25px;
+  background: #0062C8;
+  display: flex;
+  width: 792px;
+  height: 651px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;  
+  text-transform: uppercase;
+}
+
+
+.price__money {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.price__pay {
+  padding-bottom: 45px;
+}
+
+.btn__price {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  width: 500px;
+  height: 94px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.price__line {
+  padding-top: 100px;
+  background: url("../img/price__line.png") no-repeat;
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
+
+.query {
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+
+.query__padd{
+  padding-bottom: 25px;
+}
+
+.questions__1{
+  padding-bottom: 60px;
+}
+
+.questions__text {
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.questions__border {
+  border-radius: 30px;
+  padding: 30px 0 30px 0;
+}
+
+.collaps__questions__border {
+  padding-top: 30px;
+}
+
+.wrap {
+  padding-right: 60px;
+}
+
+.arrow {
+  width: 4.3rem;
+  height: 1rem;
+  display: inline-block;
+  position: relative;
+  margin: 0 1rem;
+}
+
+.arrow span {
+  top: 0.5rem;
+  position: absolute;
+  width: 2.54rem;
+  height: 0.1rem;
+  background-color: #fff;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.arrow span:first-of-type {
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.arrow span:last-of-type {
+  right: 0;
+  transform: rotate(-45deg);
+}
+
+.active span:first-of-type {
+  transform: rotate(-45deg);
+}
+.active span:last-of-type {
+  transform: rotate(45deg);
 }
 
 /*# sourceMappingURL=style.css.map */
