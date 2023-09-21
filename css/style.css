@@ -691,15 +691,17 @@ price__line
   padding-top: 50px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 25px;
 }
 
-footer {
-  padding: 50px 40px 0 40px;
+.footers {
+  height: 60px;
+  padding: 0 40px 0 40px;
   background-color: #656565;
   text-align: center;
 }
 
-footer a {  
+.footers a {  
   color: #FFF;
   text-decoration: none;
 }
