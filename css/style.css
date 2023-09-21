@@ -19,6 +19,7 @@ body {
   color: #fff;
   max-width: 1920px;
   margin: 0 auto;
+  position: relative;
 }
 
 .nav {  
@@ -28,6 +29,7 @@ body {
   padding-right: min(40px);
   padding-bottom: min(114px);
 }
+
 
 .nav__padd {
   padding-right: 60px;
@@ -42,13 +44,20 @@ body {
   padding-right: 175px;
 }
 
-.who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions {
+.who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions, .reviews, .contact, .main__price {
   padding-left: 175px;
   padding-right: 175px;
 }
 
+
 .why {
-  padding-top: 210px;
+  padding-top: 400px;
+}
+
+.main__price h5 {
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 
 .why h1 {
@@ -162,30 +171,40 @@ h2, h3, h4, h5, h6 {
   padding-bottom: 140px;
 }
 
-.main__price {
-  padding-top: 90px;
-}
-
 .hand {
   background: url("../img/hand.png") no-repeat left top;
   position: absolute;
   width: 354px;
   height: 364px;
-  top: 995px;
+  left: 0;
 }
 
-.price {
-  background: url("../img/price2.png") no-repeat center;
-  width: 1596px;
-  height: 399px;
+.price__text {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding-bottom: 35px;
 }
+
+.price__title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.main__row__padd {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+/* .price__arrow__padd {
+  align-items: center;
+} */
 
 .whom {
   background: url("../img/for__whom.png") no-repeat right top;
   position: absolute;
+  right: 0;
   width: 543px;
   height: 735px;
-  top: 1734px;
 }
 
 .phone {
@@ -193,7 +212,7 @@ h2, h3, h4, h5, h6 {
   position: absolute;
   width: 831px;
   height: 937px;
-  top: 2300px;
+  left: 0;
 }
 
 .why__header {
@@ -220,18 +239,18 @@ h2, h3, h4, h5, h6 {
   position: absolute;
   width: 1920px;
   height: 542px;
-  top: 3435px;
+  left: 0;
 }
 
 .consultation__padd {
-  padding-top: 110px;
+  padding-top: 250px;
   font-size: 50px;
   font-weight: bold;
 }
 
 .con__padd {
-  padding-top: 160px;
-  padding-left: 120px;
+  padding-top: 280px;
+  padding-left: 100px;
 }
 
 .con__btn {
@@ -360,7 +379,7 @@ h2, h3, h4, h5, h6 {
   font-size: 20px;
   padding-top: 50px;
 }
-
+price__line
 .lector__titile {
   font-family: "Gotham Pro Light", sans-serif;
   font-size: 20px;
@@ -370,6 +389,7 @@ h2, h3, h4, h5, h6 {
   background: url('../img/hero2.png') no-repeat left top;
   width: 640px;
   height: 701px;
+  left: 0;
 }
 
 .resume__con {
@@ -441,6 +461,7 @@ h2, h3, h4, h5, h6 {
   position: absolute;
   width: 1920px;
   height: 1080px;
+  left: 0;
 }
 
 .query {
@@ -507,8 +528,180 @@ h2, h3, h4, h5, h6 {
 .active span:first-of-type {
   transform: rotate(-45deg);
 }
+
 .active span:last-of-type {
   transform: rotate(45deg);
+}
+
+.phone__clear {
+  background: url("../img/phone_clear.png") no-repeat left top;
+  position: absolute;
+  width: 831px;
+  height: 937px;
+}
+
+.be-static {
+  position: static;
+}
+
+.lock__right {
+  background: url("../img/locks__right.png") no-repeat right top;
+  position: absolute;
+  right: 0;
+  width: 537px;
+  height: 527px;
+}
+
+.contacts {
+  padding-top: 420px;
+  padding-left: 100px;
+}
+
+
+
+.carousel {
+  padding-top: 60px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.carousel__list {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 840px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item:nth-child(1) {
+  background: linear-gradient(45deg, #0062C8 0%, #0062C8 100%);
+}
+.carousel__item:nth-child(2) {
+  background: linear-gradient(45deg, #0062C8 0%, #0062C8 100%);
+}
+.carousel__item:nth-child(3) {
+  background: linear-gradient(45deg, #0062C8 0%, #0062C8 100%);
+}
+.carousel__item:nth-child(4) {
+  background: linear-gradient(45deg, #0062C8 0%, #0062C8 100%);
+}
+.carousel__item:nth-child(5) {
+  background: linear-gradient(45deg, #0062C8 0%, #0062C8 100%);
+}
+.carousel__item[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item[data-pos="-1"], .carousel__item[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item[data-pos="-1"] {
+  transform: translateX(-10%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item[data-pos="1"] {
+  transform: translateX(10%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item[data-pos="-2"], .carousel__item[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item[data-pos="-2"] {
+  transform: translateX(-20%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item[data-pos="2"] {
+  transform: translateX(20%) scale(0.8);
+  z-index: 3;
+}
+
+.carousel__item p {
+  font-size: 20px;
+}
+
+.contact-form .form-field {  
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  background-color: #161616;
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #FFF;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  display: none;
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #656565;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+
+.contacts__text {
+  color: #656565;
+  padding-top: 40px;
+}
+
+.contacts__text a {
+  color: #fff;
+}
+
+
+.end {
+  padding-top: 150px;
+}
+
+.courses, .end {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+footer {
+  padding: 50px 40px 0 40px;
+  background-color: #656565;
+  text-align: center;
+}
+
+footer a {  
+  color: #FFF;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
