@@ -17,36 +17,37 @@ body {
   font-family: "Gotham Pro Light", sans-serif;
   background: #161616;
   color: #fff;
-  max-width: 1920px;
+  max-width: 1920px;    
+  padding-top: 57px;
   margin: 0 auto;
   position: relative;
 }
 
-.nav {  
-  display: flex;  
-  padding-top: min(57px);
-  padding-left: min(40px);
-  padding-right: min(40px);
-  padding-bottom: min(114px);
+.nav {
+  height: 171px;
 }
-
 
 .nav__padd {
   padding-right: 60px;
 }
 
 .nav__mail {
+  padding-left: 75px;
   padding-right: 40px;
 }
 
 .main {
+  padding-top: 100px;
+}
+
+.main, .who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions, .reviews, .contact, .main__price {
   padding-left: 175px;
   padding-right: 175px;
 }
 
-.who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions, .reviews, .contact, .main__price {
-  padding-left: 175px;
-  padding-right: 175px;
+.logo-DVFU {
+  width: 80px;
+  height: 50px;
 }
 
 
@@ -80,7 +81,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .main__text {
-  padding-top: 190px;
+  padding-top: 50px;
   padding-bottom: 50px;
   font-size: 25px;
 }
@@ -90,7 +91,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .main__padd {
-  padding-top: 334px;
+  padding-top: 50px;
   padding-right: 20px;
 }
 
@@ -128,12 +129,6 @@ h2, h3, h4, h5, h6 {
   font-weight:bold;
 }
 
-.img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .btn {
   font-family: "Gotham Pro Black", sans-serif;
   font-size: 20px;
@@ -161,18 +156,19 @@ h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  background: url("../img/hero.svg") no-repeat right top;
-  width: 125%;
-  height: 100%; 
+  background: url("../img/hero_test.png") no-repeat center top;
+  position: absolute;
+  width: 1560px;
+  height: 1080px; 
 }
-#fish {padding: 0px, 175px, 60px, 899px; position:relative}
+/* #fish {padding: 0px, 175px, 60px, 899px; position:relative} */
 
 .main__hero {
   padding-bottom: 140px;
 }
 
 .hand {
-  background: url("../img/hand.png") no-repeat left top;
+  background: url("../img/hand.png") no-repeat right top;
   position: absolute;
   width: 354px;
   height: 364px;
@@ -299,7 +295,6 @@ h2, h3, h4, h5, h6 {
   position: absolute;
   width: 537px;
   height: 527px;
-  top: 6100px;
 }
 
 .req__text {

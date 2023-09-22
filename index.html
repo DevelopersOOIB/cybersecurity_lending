@@ -7,42 +7,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-queries.css">
     </head>
     <body>
-        <header class="header">
+        <header class="header" id="header">
             <div class="nav">
                 <div class="container-fluid">
-                    <div class="row justify-content-between">
-                        <div class="col-auto my-auto">
+                    <div class="row justify-content-around">
+                        <div class="col-md-2 my-auto">
                             <a href="" class="link-underline link-underline-opacity-0 nav__padd">
-                                    <img class="logo-CIB" src="img/cib.png">                 
-                                </a>
-                                <a href="https://www.ptsecurity.com/" class="link-underline link-underline-opacity-0 nav__padd">
-                                    <img class="logo-PT" src="img/PT.svg">                
-                                </a>
-                                <a href="https://www.dvfu.ru/" class="link-underline link-underline-opacity-0">
-                                    <img class="logo-DVFU" src="img/DVFU.png">                   
-                                </a>
+                                <img class="logo-CIB" src="img/cib.png">                 
+                            </a>    
                         </div>
-                        <div class="col-auto">
-                            <div class="row">
-                                <div class="col-auto  my-auto">
-                                    <a class="link-light link-offset-2 link-underline-opacity-100 nav__mail" href="mailto:dpo-ib@dvfu.ru">dpo-ib@dvfu.ru</a>
-                                </div>
-                                <div class="col-auto">
-                                    <a href="http://t.me/Kostetos" class="link-underline link-underline-opacity-0  nav__mail">
-                                        <svg class="telegram_icon" width="68" height="68" viewBox="0 0 75 75">
-                                            <path d="m34,5 a34,34,0,0,0,0,68 a-34,-34,0,0,0,0,-68 z" fill="#0062C8"/>
-                                            <path d="M15.3904 37.1756C25.3035 32.4692 31.9123 29.3661 35.2166 27.8669C44.6623 23.5861 46.6226 22.8426 47.9029 22.8174C48.1844 22.8125 48.8113 22.8884 49.2204 23.2488C49.5604 23.5528 49.656 23.9639 49.7038 24.2526C49.7463 24.5409 49.8048 25.1981 49.757 25.7112C49.247 31.5711 47.0316 45.7912 45.9054 52.3546C45.4326 55.1317 44.4923 56.0628 43.5838 56.1537C41.6076 56.3517 40.1095 54.7315 38.197 53.3656C35.206 51.2272 33.5166 49.8966 30.6107 47.8103C27.2532 45.3991 29.4313 44.0737 31.3438 41.9081C31.8432 41.3412 40.5451 32.7164 40.7098 31.9341C40.731 31.8363 40.7523 31.4715 40.5504 31.2792C40.3538 31.0864 40.0616 31.1524 39.8491 31.2045C39.5463 31.2787 34.7704 34.7228 25.5054 41.5364C24.1507 42.552 22.9235 43.0471 21.8185 43.021C20.6073 42.9927 18.2698 42.2729 16.5326 41.658C14.4076 40.9035 12.7129 40.5045 12.8616 39.2231C12.936 38.556 13.7807 37.8734 15.3904 37.1756Z" fill="white"/>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="col-auto">
-                                    <button type="button" class="btn">ЗАПИСАТЬСЯ</button>
-                                </div>                            
-                            </div>                           
-                        </div>                      
+                        <div class="col-md-2 my-auto">
+                            <a href="https://www.ptsecurity.com/" class="link-underline link-underline-opacity-0 nav__padd">
+                                <img class="logo-PT" src="img/PT.svg">                
+                            </a>
+                        </div>
+                        <div class="col-md-2 my-auto">
+                            <a href="https://www.dvfu.ru/" class="link-underline link-underline-opacity-0">
+                                <img class="logo-DVFU" src="img/DVFU.svg">                   
+                            </a>
+                        </div>
+                        <div class="col-md-3 my-auto text-end">
+                            <a class="link-light link-offset-2 link-underline-opacity-100" id="nav__mail" href="mailto:dpo-ib@dvfu.ru">dpo-ib@dvfu.ru</a>
+                        </div>
+                        <div class="col-md-1 my-auto">
+                            <a href="http://t.me/Kostetos" class="link-underline link-underline-opacity-0  nav__telegram">
+                                <svg class="telegram_icon" width="68" height="68" viewBox="0 0 75 75">
+                                    <path d="m34,5 a34,34,0,0,0,0,68 a-34,-34,0,0,0,0,-68 z" fill="#0062C8"/>
+                                    <path d="M15.3904 37.1756C25.3035 32.4692 31.9123 29.3661 35.2166 27.8669C44.6623 23.5861 46.6226 22.8426 47.9029 22.8174C48.1844 22.8125 48.8113 22.8884 49.2204 23.2488C49.5604 23.5528 49.656 23.9639 49.7038 24.2526C49.7463 24.5409 49.8048 25.1981 49.757 25.7112C49.247 31.5711 47.0316 45.7912 45.9054 52.3546C45.4326 55.1317 44.4923 56.0628 43.5838 56.1537C41.6076 56.3517 40.1095 54.7315 38.197 53.3656C35.206 51.2272 33.5166 49.8966 30.6107 47.8103C27.2532 45.3991 29.4313 44.0737 31.3438 41.9081C31.8432 41.3412 40.5451 32.7164 40.7098 31.9341C40.731 31.8363 40.7523 31.4715 40.5504 31.2792C40.3538 31.0864 40.0616 31.1524 39.8491 31.2045C39.5463 31.2787 34.7704 34.7228 25.5054 41.5364C24.1507 42.552 22.9235 43.0471 21.8185 43.021C20.6073 42.9927 18.2698 42.2729 16.5326 41.658C14.4076 40.9035 12.7129 40.5045 12.8616 39.2231C12.936 38.556 13.7807 37.8734 15.3904 37.1756Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-md-2 my-auto" id="nav__btn">
+                            <a type="button" class="btn">ЗАПИСАТЬСЯ</a>
+                        </div>                     
                     </div>                    
                     <!-- /.row -->                        
                 </div>
@@ -52,73 +54,75 @@
             <div class="main">
                 <div class="container-fluid main__hero">
                     <div class="row">
-                        <div class="col-6">
+                        
+                        <div class="col-md-6  z-n1">
+                            <div class="hero"></div>
+                        </div>
+                        <div class="col-md-12">
                             <div class="row">
-                                <h1 class="col-auto main__title position-absolute">
-                                    АДМИНИСТРИРОВАНИЕ И БЕЗОПАСНОСТЬ<br>КОМПЬЮТЕРНЫХ СИСТЕМ
-                                </h1>
+                                <h1 class="col-md-auto main__title">
+                                    АДМИНИСТРИРОВАНИЕ И БЕЗОПАСНОСТЬ КОМПЬЮТЕРНЫХ СИСТЕМ
+                                </h1>                                                               
                             </div>
                             <div class="row">
-                                <span class="col-auto main__text position-absolute">
+                                <p class="col-md-auto main__text">
                                     ПЕРВАЯ ПАРТНЕРСКАЯ ПРОГРАММА ДВФУ С ОДНИМ <br>ИЗ ЛИДЕРОВ В СФЕРЕ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ
-                                </span> 
+                                </p>
                             </div>
                             <div class="row main__padd">
-                                <div class="col-auto">
+                                <div class="col-md-auto">
                                     <button type="button" class="btn">ЗАПИСАТЬСЯ</button>
                                 </div>
-                                <div class="col-auto">
+                                <div class="col-md-auto">
                                     <button type="button" class="btn btn-o">ВИДЕО О КУРСЕ</button>
                                 </div>
                             </div>
                             <div class="row main__start">
-                                <p class="col-4 main__title2">
+                                <p class="col-md-4 main__title2">
                                     <span class="text-center">СТАРТ ПОТОКА <b>1 ОКТЯБРЯ 2023</b></span><br>                            
                                     <span class="text-start small">ЗАПИСЬ ДО 20 СЕНТЯБРЯ 2023</span>                            
                                 </p>                        
                             </div>
-                        </div>
-                        <div class="col-6  z-n1">
-                            <div class="rounded float-end hero" id="fish"></div>
                         </div>
                     </div>                 
                 </div>
             </div>
             <!-- /.container  main__hero-->
             <div class="container-fluid main__price">
-                <div class="row">
-                    <div class="col-2 be-static">                           
-                        <div class="hand z-n1" id="hand"></div>
-                    </div>
-                    <div class="col-10">
+                <div class="row">                    
+                    <div class="col-md-10">
                         <div class="row">
-                            <div class="col-10 offset-2"><h5>наши ученики<br>уже зарабатывают ~200 000р</h5></div>                           
+                            <div class="col-md-10 offset-2"><h5>наши ученики<br>уже зарабатывают ~200 000р</h5></div>                           
                         </div>                        
                     </div>
-                    <div class="col-auto">
+                                        
+                    <div class="col-md-2 be-static">                           
+                        <div class="hand z-n1" id="hand"></div>
+                    </div>
+                    <div class="col-md-auto">
                         <div class="row justify-content-around main__row__padd">
-                            <div class="col-auto">
+                            <div class="col-md-auto">
                                 <div class="row price__text">junior</div>
                                 <div class="row price__title">80 000р.</div>
                             </div>
-                            <div class="col-auto my-auto">
+                            <div class="col-md-auto my-auto">
                                 <img src="img/two__arrow.svg" alt="" srcset="">
                             </div>
-                            <div class="col-auto">
+                            <div class="col-md-auto">
                                 <div class="row price__text">middle</div>
                                 <div class="row price__title">200 000р.</div>
                             </div>
-                            <div class="col-auto my-auto">
+                            <div class="col-md-auto my-auto">
                                 <img src="img/two__arrow.svg" alt="" srcset="">
                             </div>
-                            <div class="col-auto">
+                            <div class="col-md-auto">
                                 <div class="row price__text">senior</div>
                                 <div class="row price__title">320 000р.</div>
                             </div>
-                            <div class="col-auto my-auto">
+                            <div class="col-md-auto my-auto">
                                 <img src="img/two__arrow.svg" alt="" srcset="">
                             </div>
-                            <div class="col-auto">
+                            <div class="col-md-auto">
                                 <div class="row price__text">senior ЗА РУБЕЖОМ</div>
                                 <div class="row price__title">7 250$</div>
                             </div>
@@ -131,24 +135,24 @@
             <div class="who">
                 <div class="container-fluid main__for-whom">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-md-8">
                             <h1>КОМУ ПОДОЙДЕТ НАШ КУРС?</h1>
                         </div>
-                        <div class="col-4">                            
+                        <div class="col-md-4">                            
                             <div class="whom"></div>
                         </div>
                     </div>
                     <div class="row for-whom__padd">
-                        <div class="col-1 for-whom__N">01.</div>
-                        <div class="col-4">Уже работающим IT-специалистам,<br>которые хотят сменить направление</div>
+                        <div class="col-md-1 for-whom__N">01.</div>
+                        <div class="col-md-4">Уже работающим IT-специалистам,<br>которые хотят сменить направление</div>
                     </div>
                     <div class="row for-whom__padd">
-                        <div class="col-1 for-whom__N">02.</div>
-                        <div class="col-6">Системным администраторам, которые хотят получить<br>навыки обеспечения информационной безопасности</div>
+                        <div class="col-md-1 for-whom__N">02.</div>
+                        <div class="col-md-6">Системным администраторам, которые хотят получить<br>навыки обеспечения информационной безопасности</div>
                     </div>
                     <div class="row for-whom__padd">
-                        <div class="col-1 for-whom__N">03.</div>
-                        <div class="col-7">Специалистам по защите информации, которые хотят<br>получить навыки развертывания и администрирования систем</div>
+                        <div class="col-md-1 for-whom__N">03.</div>
+                        <div class="col-md-7">Специалистам по защите информации, которые хотят<br>получить навыки развертывания и администрирования систем</div>
                     </div>
                 </div>
                 <!-- /.container-fluid main__for-whom -->
@@ -158,42 +162,42 @@
                 <div class="container-fluid">                    
                 <div class="phone"></div>
                     <div class="row">
-                        <div class="col-auto offset-5">
+                        <div class="col-md-auto offset-5">
                             <h1>ПОЧЕМУ НАШ КУРС?</h1>
                         </div>
                     </div>
                     <div class="row  offset-5 why-row">
-                        <div class="col-auto why__plus">
+                        <div class="col-md-auto why__plus">
                             <img src="img/plus.png" alt="plus" srcset="">
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <p class="why__header">Минимум теории - больше практики</p>
                             <p class="why__intro">Все задания разработаны совместно с экспертами<br>команды Positive Technologies</p>
                         </div>
                     </div>
                     <div class="row  offset-5 why-row">
-                        <div class="col-auto why__plus">
+                        <div class="col-md-auto why__plus">
                             <img src="img/plus.png" alt="plus" srcset="">
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <p class="why__header">Обучение у лучших экспертов</p>
                             <p class="why__intro">Только практика, только хардкор! А помогут тебе с этим<br>действующие специалисты по кибербезопасности</p>
                         </div>
                     </div>
                     <div class="row  offset-5 why-row">
-                        <div class="col-auto why__plus">
+                        <div class="col-md-auto why__plus">
                             <img src="img/plus.png" alt="plus" srcset="">
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <p class="why__header">Удобный формат занятий</p>
                             <p class="why__intro">Уроки представлены как в текстовом,<br>так и в видео-форматах</p>
                         </div>
                     </div>
                     <div class="row  offset-5 why-row">
-                        <div class="col-1 why__plus">
+                        <div class="col-md-1 why__plus">
                             <img src="img/plus.png" alt="plus" srcset="">                            
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <p class="why__header">Поддержка кураторов на всех этапах обучения</p>
                             <p class="why__intro">Преподаватель будет проверять домашние задания,<br>отслеживать процесс обучения и отвечать на все<br>вопросы в рамках программы</p>
                         </div>
@@ -206,8 +210,8 @@
             <div class="container-fluid blue__line__padd">
                 <div class="row consultation">
                     <div class="blue__line z-n1"></div>
-                    <div class="col-auto consultation__padd"><p>УСПЕЙ ЗАПИСАТЬСЯ<br>НА ОКТЯБРЬСКИЙ ПОТОК</p></div>
-                    <div class="col-auto con__padd"><button type="button" class="btn btn-o con__btn">получить консультацию</button></div>
+                    <div class="col-md-auto consultation__padd"><p>УСПЕЙ ЗАПИСАТЬСЯ<br>НА ОКТЯБРЬСКИЙ ПОТОК</p></div>
+                    <div class="col-md-auto con__padd"><button type="button" class="btn btn-o con__btn">получить консультацию</button></div>
                 </div>                        
             </div>
             <!-- /.container-fluid -->
@@ -216,12 +220,12 @@
             <div class="program">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <h1>ПРОГРАММА КУРСА</h1>
                         </div>
                         <div class="row for-whom__padd">
-                            <div class="col-1 for-whom__N">01.</div>
-                            <div class="col-11">
+                            <div class="col-md-1 for-whom__N">01.</div>
+                            <div class="col-md-11">
                                 <p>Windows и базовый Active Directory</p>
                                 <ul>
                                     <li>Научитесь администрировать Windows Server</li>
@@ -235,8 +239,8 @@
                             </div>
                         </div>
                         <div class="row for-whom__padd">
-                            <div class="col-1 for-whom__N">02.</div>
-                            <div class="col-auto">
+                            <div class="col-md-1 for-whom__N">02.</div>
+                            <div class="col-md-auto">
                                 <p>OS Linux</p>
                                 <ul>
                                     <li>Разберете основы ОС Linux</li>
@@ -249,8 +253,8 @@
                             </div>
                         </div>
                         <div class="row for-whom__padd">
-                            <div class="col-1 for-whom__N">03.</div>
-                            <div class="col-auto">
+                            <div class="col-md-1 for-whom__N">03.</div>
+                            <div class="col-md-auto">
                                 <p>СЕТИ И ПРОТОКОЛЫ</p>
                                 <ul>
                                     <li>Поймете остновные концепции и принципы сетевых технологий</li>
@@ -263,8 +267,8 @@
                             </div>
                         </div>
                         <div class="row for-whom__padd">
-                            <div class="col-1 for-whom__N">04.</div>
-                            <div class="col-auto">
+                            <div class="col-md-1 for-whom__N">04.</div>
+                            <div class="col-md-auto">
                                 <p>WEB</p>
                                 <ul>
                                     <li>Научитесь основным принципам и технологиям, используемым в Web-разработке</li>
@@ -277,8 +281,8 @@
                             </div>
                         </div>
                         <div class="row for-whom__padd">
-                            <div class="col-1 for-whom__N">05.</div>
-                            <div class="col-auto">
+                            <div class="col-md-1 for-whom__N">05.</div>
+                            <div class="col-md-auto">
                                 <p>Итоговая аттестация</p>
                                 <ul>
                                     <li>Настроите собственную виртуальную инфраструктуру</li>
@@ -294,47 +298,47 @@
                 <!-- /.container-fluid -->
             </div>
             <!-- /.program -->
-            <div class="lock__left"></div>
-            <div class="req">
-                <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="lock__left"></div>            
+                <div class="req">
                     <div class="row justify-content-end">
-                        <div class="col-auto"><h1>ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ</h1></div>                        
+                        <div class="col-md-auto"><h1>ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ</h1></div>                        
                     </div>
                     <div class="row justify-content-end">
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <p class="text-center">ДЛЯ КОМФОРТНОГО ОБУЧЕНИЯ И СОХРАНЕНИЯ ВСЕХ МАТЕРИАЛОВ</p>
                         </div>
                     </div>
                     <div class="row justify-content-end req__text tth">
-                        <div class="col-auto border border-white border-w border-os">
+                        <div class="col-md-auto border border-white border-w border-os">
                             <div class="row">WINDOWS 10</div>
                             <div class="row">LINUX x64</div>
                             <div class="row">MacOS 10.12+</div>
                             <div class="row req__title">СОВРЕМЕННАЯ ОПЕРАЦИОННАЯ СИСТЕМА</div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <div class="row hdd">
-                                <div class="col-auto border border-white border-w border-hdd">
+                                <div class="col-md-auto border border-white border-w border-hdd">
                                     <div class="row">200 ГБ</div>
                                     <div class="row req__title">НА ЖЕСТКОМ<br>ДИСКЕ</div>
                                 </div>
                             </div>
                             <div class="row ram">
-                                <div class="col-auto border border-white border-w border-ram">
+                                <div class="col-md-auto border border-white border-w border-ram">
                                     <div class="row">12 ГБ</div>
                                     <div class="row req__title">ОПЕРАТИВНОЙ ПАМЯТИ</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <div class="row cpu">
-                                <div class="col-auto border border-white border-w border-cpu">
+                                <div class="col-md-auto border border-white border-w border-cpu">
                                     <div class="row">INTEL CORE i5</div>
                                     <div class="row req__title">ПРОЦЕССОР (2ГО ПОКОЛЕНИЯ, 4 ПОТОКА ИЛИ<br>АНАЛОГИЧНОЙ ПРОИЗВОДИТЕЛЬНОСТИ)</div>                                
                                 </div>
                             </div>
                             <div class="row vm">
-                                <div class="col-auto border border-white border-w border-vm">
+                                <div class="col-md-auto border border-white border-w border-vm">
                                     <div class="row">INTEL VT-X, AMD-V</div>
                                     <div class="row req__title">ПОДДЕРЖКА АППАРАТНОЙ ВИРТУАЛИЗАЦИИ</div>
                                 </div>
@@ -342,17 +346,16 @@
                         </div>
                     </div>
                     <div class="row justify-content-end req__text">
-                            <div class="col-auto border border-white border-po border-w po">
+                            <div class="col-md-auto border border-white border-po border-w po">
                                 <div class="row">ORACLE VIRTUAL BOX, ORACLE VM VIRTUALBOX<br>
                                     EXTENSION PACK и VMWARE PLAYER<br>(для модуля Networks)</div>
                                 <div class="row req__title"> УСТАНОВЛЕННЫЕ ПРОГРАММЫ АКТУАЛЬНЫХ ВЕРСИЙ</div>
                             </div>
                         </div>
-                    </div>                        
-                    <!-- /.row -->
-                </div>
-                <!-- /.container-fluid -->
+                </div>                        
+                <!-- /.row -->
             </div>
+            <!-- /.container-fluid -->
             <!-- /.req -->
             <div class="lectors">
                 <div class="container-fluid">
@@ -362,28 +365,28 @@
                         </div>
                     </div>
                     <div class="row justify-content-around">
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <div class="row">
                                 <img src="img/lector1.png" alt="lector1" srcset="">
                             </div>
                             <div class="row lector__text">Александр Дмитриевич</div>
                             <div class="row lector__title">ВСЕМ ПРОГРАММИСТАМ ПРОГРАММИСТ</div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <div class="row">
                                 <img src="img/lector2.png" alt="lector2" srcset="">
                             </div>
                             <div class="row lector__text">Александр Анатольевич</div>
                             <div class="row lector__title">ВСЕМ ПРОГРАММИСТАМ ПРОГРАММИСТ</div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <div class="row">
                                 <img src="img/lector3.png" alt="lector3" srcset="">
                             </div>
                             <div class="row lector__text">Илья Владимирович</div>
                             <div class="row lector__title">ВСЕМ ПРОГРАММИСТАМ ПРОГРАММИСТ</div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <div class="row">
                                 <img src="img/lector4.png" alt="lector4" srcset="">
                             </div>
@@ -398,10 +401,10 @@
             <!-- /.lectors -->
             <div class="container-fluid resume__con">
                 <div class="row">
-                    <div class="col-auto"><div class="hero__2 be-static"></div></div>
-                    <div class="col-auto">
+                    <div class="col-md-auto"><div class="hero__2 be-static"></div></div>
+                    <div class="col-md-auto">
                         <div class="row">
-                            <div class="col-auto">
+                            <div class="col-md-auto">
                                 <h1>ВАШЕ РЕЗЮМЕ ПОСЛЕ КУРСА</h1>
                                 <div class="resume">
                                     <p class="resume__padd resume__resume">JUNIOR LINUX - АДМИНИСТРАТОР</p>
@@ -426,11 +429,11 @@
             <div class="container-fluid">
                 <div class="price__line z-n1"></div>
                 <div class="prices">
-                    <div class="col-auto col__price"><h1>СКОЛЬКО СТОИТ?</h1></div>
+                    <div class="col-md-auto col__price"><h1>СКОЛЬКО СТОИТ?</h1></div>
                     <div class="row justify-content-center">
-                        <div class="col-4 price__form">
+                        <div class="col-md-4 price__form">
                             <div class="row">
-                                <div class="col-auto">
+                                <div class="col-md-auto">
                                     <h1 class="price__money">80 000p.</h1>
                                     <p><b>СПОСОБ ОПЛАТЫ:</b></p>
                                     <ul  class="price__pay">
@@ -449,21 +452,21 @@
             <!-- /.price -->
             <div class="container-fluid query">
                 <div class="row questions">
-                    <div class="col-auto questions__1">
+                    <div class="col-md-auto questions__1">
                         <h1>ВОПРОСЫ И ОТВЕТЫ</h1>
                     </div>
                 </div>
                 <!-- /.row -->
                 <a id="questions__block01" class="questions__text" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse">
                     <div class="row justify-content-around query__padd">
-                        <div class="col-12 border border-white questions__border">
+                        <div class="col-md-12 border border-white questions__border">
                             <div class="row">
-                                <div class="col-11">
+                                <div class="col-md-11">
                                     <div class="questions">
                                         КАК ДОЛГО ДЛИТСЯ ОБУЧЕНИЕ?
                                     </div>                                    
                                 </div>
-                                <div class="col-1">
+                                <div class="col-md-1">
                                     <div class="wrap" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse">
                                         <span class="arrow" id="arrow1">
                                             <span></span><span></span>
@@ -481,14 +484,14 @@
                 </a>
                 <a id="questions__block02" class="questions__text" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse">
                     <div class="row justify-content-around query__padd">
-                        <div class="col-12 border border-white questions__border">
+                        <div class="col-md-12 border border-white questions__border">
                             <div class="row">
-                                <div class="col-11">
+                                <div class="col-md-11">
                                     <div class="questions">
                                         КАК ДОЛГО ДЛИТСЯ ОБУЧЕНИЕ?
                                     </div>                                    
                                 </div>
-                                <div class="col-1">
+                                <div class="col-md-1">
                                     <div class="wrap" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse">
                                         <span class="arrow" id="arrow2">
                                             <span></span><span></span>
@@ -506,14 +509,14 @@
                 </a>
                 <a id="questions__block03" class="questions__text" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse">
                     <div class="row justify-content-around query__padd">
-                        <div class="col-12 border border-white questions__border">
+                        <div class="col-md-12 border border-white questions__border">
                             <div class="row">
-                                <div class="col-11">
+                                <div class="col-md-11">
                                     <div class="questions">
                                         КАК ДОЛГО ДЛИТСЯ ОБУЧЕНИЕ?
                                     </div>                                    
                                 </div>
-                                <div class="col-1">
+                                <div class="col-md-1">
                                     <div class="wrap" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse">
                                         <span class="arrow" id="arrow3">
                                             <span></span><span></span>
@@ -531,14 +534,14 @@
                 </a>
                 <a id="questions__block04" class="questions__text" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse">
                     <div class="row justify-content-around query__padd">
-                        <div class="col-12 border border-white questions__border">
+                        <div class="col-md-12 border border-white questions__border">
                             <div class="row">
-                                <div class="col-11">
+                                <div class="col-md-11">
                                     <div class="questions">
                                         КАК ДОЛГО ДЛИТСЯ ОБУЧЕНИЕ?
                                     </div>                                    
                                 </div>
-                                <div class="col-1">
+                                <div class="col-md-1">
                                     <div class="wrap" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse">
                                         <span class="arrow" id="arrow4">
                                             <span></span><span></span>
@@ -556,14 +559,14 @@
                 </a>
                 <a id="questions__block05" class="questions__text" data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapse">
                     <div class="row justify-content-around query__padd">
-                        <div class="col-12 border border-white questions__border">
+                        <div class="col-md-12 border border-white questions__border">
                             <div class="row">
-                                <div class="col-11">
+                                <div class="col-md-11">
                                     <div class="questions">
                                         КАК ДОЛГО ДЛИТСЯ ОБУЧЕНИЕ?
                                     </div>                                    
                                 </div>
-                                <div class="col-1">
+                                <div class="col-md-1">
                                     <div class="wrap" data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapse">
                                         <span class="arrow" id="arrow5">
                                             <span></span><span></span>
@@ -586,7 +589,7 @@
                 <div class="phone__clear z-n1"></div>
                 <div class="reviews">
                     <div class="row justify-content-end">
-                        <div class="col-auto">
+                        <div class="col-md-auto">
                             <div class="row">
                                 <h1>ОТЗЫВЫ УЧЕНИКОВ</h1>
                             </div>
@@ -620,7 +623,7 @@
                                   </div>
                             </div>
                         </div>
-                        <!-- /.col-auto -->
+                        <!-- /.col-md-auto -->
                     </div>
                     <!-- /.row justify-content-end -->
                 </div>
@@ -629,35 +632,35 @@
             <!-- /.reviews -->
             <div class="container-fluid contacts">                
                 <div class="row">
-                    <div class="col-7 contact">
+                    <div class="col-md-7 contact">
                         <h1>СВЯЖИСЬ С НАМИ</h1>
                         <form class="contact-form row">
-                            <div class="form-field col-12">
+                            <div class="form-field col-md-12">
                                <input id="name" class="input-text" type="text" required>
                                <label class="label" for="name">ИМЯ</label>
                             </div>
-                            <div class="form-field col-12">
+                            <div class="form-field col-md-12">
                                <input id="phone" class="input-text" type="email" required>
                                <label class="label" for="phone">ТЕЛЕФОН</label>
                             </div>
-                            <div class="form-field col-12">
+                            <div class="form-field col-md-12">
                                <input id="email" class="input-text" type="text" required>
                                <label class="label" for="email">E-MAIL</label>
                             </div>
-                             <div class="form-field col-12">
+                             <div class="form-field col-md-12">
                                <input id="promocod" class="input-text" type="text" required>
                                <label class="label" for="promocod">ПРОМОКОД</label>
                             </div>
-                            <div class="form-field col-6">
+                            <div class="form-field col-md-6">
                                <button class="btn btn-o">отправить</button>
                             </div>
-                            <div class="col-6 contacts__text text-start">
+                            <div class="col-md-6 contacts__text text-start">
                                 Нажимая на кнопку, вы соглашаетесь<br>с
                                 <a href="https://dpo.dvfu.ru/policy">политикой конфиденциальности</a> 
                             </div>
                          </form>
                     </div>
-                    <div class="col-5 be-static">
+                    <div class="col-md-5 be-static">
                         <div class="lock__right z-n1"></div>
                     </div>
                 </div>
@@ -666,7 +669,7 @@
             <div class="end">
                 <div class="container-fluid">
                     <div class="row justify-content-between">
-                        <div class="col-7 my-auto">
+                        <div class="col-md-7 my-auto">
                             <a href="" class="link-underline link-underline-opacity-0 nav__padd">
                                 <img class="logo-CIB" src="img/cib.png">                 
                             </a>
@@ -677,28 +680,28 @@
                                 <img class="logo-DVFU" src="img/DVFU.png">                   
                             </a>
                         </div>
-                        <div class="col-2 text-end">                            
-                            <a class="link-light link-offset-2 link-underline-opacity-100 nav__mail" href="mailto:dpo-ib@dvfu.ru">dpo-ib@dvfu.ru</a>
+                        <div class="col-md-2 text-end">                            
+                            <a class="link-light link-offset-2 link-underline-opacity-100" href="mailto:dpo-ib@dvfu.ru">dpo-ib@dvfu.ru</a>
                         </div>
-                        <div class="col-2 text-end">
+                        <div class="col-md-3 text-end">
                             <div class="phone__contact">8 (423) 265-24-24 (доб. 2653)</div>
                         </div>                          
                     </div>                     
                     <div class="row justify-content-between courses">
-                        <div class="col-3 my-auto">АДМИНИСТРИРОВАНИЕ И БЕЗОПАСНОСТЬ КОМПЬЮТЕРНЫХ СИСТЕМ</div>
-                        <div class="col-2 offset-4 text-end my-auto">Г. ВЛАДИВОСТОК, ДВФУ, О. РУССКИЙ</div>
-                        <div class="col-2">
+                        <div class="col-md-3 my-auto">АДМИНИСТРИРОВАНИЕ И БЕЗОПАСНОСТЬ КОМПЬЮТЕРНЫХ СИСТЕМ</div>
+                        <div class="col-md-2 offset-4 text-end my-auto">Г. ВЛАДИВОСТОК, ДВФУ, О. РУССКИЙ</div>
+                        <div class="col-md-2">
                             <button type="button" class="btn">ЗАПИСАТЬСЯ</button>
                         </div> 
                     </div>
                 </div>                
             </div>
             <div class="container-fluid footers">
-                <div class="row text-center">
-                    <div class="col-2">2023 ВСЕ ПРАВА ЗАЩИЩЕНЫ</div>
-                    <div class="col-1 text-center">|</div>
-                    <div class="col-3"><a href="https://dpo.dvfu.ru/policy">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
-                    <div class="col-6 text-end">ИНН 2536014538, ОГРН 1022501297785</div>
+                <div class="row">
+                    <div class="col-md-2  my-auto">2023 ВСЕ ПРАВА ЗАЩИЩЕНЫ</div>
+                    <div class="col-md-1 text-center">|</div>
+                    <div class="col-md-3"><a href="https://dpo.dvfu.ru/policy">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
+                    <div class="col-md-6 text-end">ИНН 2536014538, ОГРН 1022501297785</div>
                 </div>
             </div>       
         </header>
