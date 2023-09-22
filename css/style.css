@@ -36,10 +36,6 @@ body {
   padding-right: 40px;
 }
 
-.main {
-  padding-top: 100px;
-}
-
 .main, .who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions, .reviews, .contact, .main__price {
   padding-left: 175px;
   padding-right: 175px;
