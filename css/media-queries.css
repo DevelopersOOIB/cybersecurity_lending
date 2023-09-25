@@ -1,11 +1,171 @@
-
-
 @media screen and (min-width: 1920px) {  
 
     /* .nav #nav__btn, .nav #nav__mail {
         display: none;
-    } */
+    } */    
+}
 
+@media screen and (max-width: 376px) {  
+
+    body {
+        padding-top: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+      }
+      
+      h2, h3, h4, h5, h6 {
+        font-size: 12px;
+      
+      }
+
+    .main, .who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions, .reviews, .contact, .main__price {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+    .nav {
+        height: 60px;
+        margin-top: 0;
+    }
+
+    .nav__logo {
+        text-align: center;
+    }
+
+    .nav .logo-PT {
+        max-width: 30%;
+        height: auto;
+    }
+    .nav .logo-DVFU {
+        max-width: 15%;
+        height: auto;
+    }
+    .nav .logo-CIB {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .nav svg {
+        max-width: 40%;
+        height: auto;
+    }
+    
+    .nav .nav__padd {
+        padding-right: 10%;
+    }
+
+    .nav #nav__btn, .nav #nav__mail {
+        display: none;
+    }
+
+    /* .nav */
+
+
+
+    .main__title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .main__text {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .main__padd {
+        padding-top: 50px;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 150px;
+        height: 50%;
+    }
+
+    .btn-o {
+        font-size: 12px;
+        height: 42px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .hero {
+        background-size: cover;
+        max-width: 100%;
+        height: 3%;
+
+    }
+
+    .main__title2 {
+        font-size: 12px;
+    }
+
+    .main__title2 b {
+        font-size: 12px;
+      }
+
+    .main__start {
+    padding-top: 80px;
+    }
+
+    .main__title2 {
+        text-align: center; 
+        width: 600px;
+        height: 10%;
+        line-height: 132%;
+        padding: 20px 50px;        
+    }
+
+    .main__hero {
+        padding-bottom: 15%;
+      }
+
+    /* .main */
+
+
+    .main__price h5 {
+        text-align: center;
+        font-size: 100%;
+        font-family: "Gotham Pro Black", sans-serif;
+    }
+
+    .main__price .offset-2 {
+        margin-left: 0;
+    }
+
+    .price__text {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+      
+    .price__title {
+        font-size: 12px;
+    }
+
+    .main__row__padd img {
+       max-width: 10%;
+       height: auto;
+       transform: rotate(90deg);
+    }
+
+    .main__row__padd {
+        padding-top: 10%;
+    }
+    
+    .hand {
+        display: none;
+    }
+
+    .hand__xs {
+        display: inline;
+    }
+
+
+    /* .main__price */
     
 }
 
