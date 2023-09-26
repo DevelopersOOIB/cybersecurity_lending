@@ -164,8 +164,104 @@
         display: inline;
     }
 
-
     /* .main__price */
+
+    .who h1 {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .for-whom__padd {
+        padding-top: 10%;
+        font-size: 90%;
+    }
+
+    .for-whom__N {
+        width: 70%;
+        font-size: 130%;
+        font-family: "Gotham Pro Black", sans-serif;
+    }
+
+    .whom {
+        display: none;
+    }
+
+    .whom__xs {
+        max-width: 70%;
+        height: 10%;
+        display: inline;
+        background-size: contain;
+    }
+    /* who */
+
+
+    .why {
+        padding-top: 100%;
+    }
+
+    .why h1 {
+        padding-left: 0%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .phone__xs {
+        display: inline;
+        max-width: 90%;
+        height: 100%;
+    }
+
+    .why-row {
+        margin-left: 0;
+        padding-bottom: 10%;
+      }
+
+    .why-row img {
+        max-width: 10%;
+        height: 10%;
+    }
+
+    .why__header {
+        font-size: 60%;
+        padding-left: 10px;
+        text-transform: uppercase;
+    }
+
+    .why__intro {
+        font-size: 60%;
+        text-transform: uppercase;
+      }
+    /* why */
+
+
+    .blue__line {
+        background-size: 100% 70%;
+    }
+
+    .consultation__padd {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .con__padd {
+        padding-top: 0;
+        padding-left: 0;        
+        padding-right: initial;
+    }
+    
+    .con__btn {
+        font-size: 12px;
+        width: 100%;
+    }
+
+
+    /* blue__line */
     
 }
 

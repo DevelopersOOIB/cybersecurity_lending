@@ -48,7 +48,7 @@ body {
 
 
 .why {
-  padding-top: 400px;
+  padding-top: 300px;
 }
 
 .main__price h5 {
@@ -58,6 +58,7 @@ body {
 }
 
 .why h1 {
+  padding-left: 50%;
   padding-bottom: 110px;
 }
 
@@ -205,6 +206,21 @@ h2, h3, h4, h5, h6 {
   height: 735px;
 }
 
+.whom__xs {
+  background: url("../img/for__whom.png") no-repeat right top;
+  position: absolute;
+  right: 0;
+  width: 543px;
+  height: 735px;
+  display: none;
+}
+
+
+.img__why {
+  width: 83px;
+  height: 83px;
+}
+
 .phone {
   background: url("../img/phone.png") no-repeat left top;
   position: absolute;
@@ -213,22 +229,33 @@ h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+.phone__xs {
+  background: url("../img/phone.png") no-repeat left top;
+  position: absolute;
+  width: 831px;
+  height: 937px;
+  left: 0;
+  display: none;
+  background-size: contain;
+}
+
 .why__header {
   font-family: "Gotham Pro Black", sans-serif;
   font-size: 25px;
+  padding-left: 70px;
 }
 
-.why__plus {
-  width: 83px;
-  height: 83px;
-  padding-right: 170px;
+.why__plus {  
+  display: contents;
 }
 
 .why-row {
+  margin-left: 50%;
   padding-bottom: 75px;
 }
 
 .why__intro {
+  font-family: "Gotham Pro Light", sans-serif;
   font-size: 20px;
 }
 
