@@ -212,7 +212,7 @@
 
     .phone__xs {
         display: inline;
-        max-width: 90%;
+        max-width: 80%;
         height: 100%;
     }
 
@@ -227,7 +227,7 @@
     }
 
     .why__header {
-        font-size: 60%;
+        font-size: 55%;
         padding-left: 10px;
         text-transform: uppercase;
     }
