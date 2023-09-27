@@ -262,6 +262,36 @@
 
 
     /* blue__line */
+
+    .program {
+        padding-top: 50%;
+    }
+
+    .program h1 {
+        text-align: center;
+    }
+
+    .program p {
+        font-size: 100%;
+    }
+
+    .program ul {
+        font-size: 90%;
+    }
+
+    .btn-program {
+        width: 100%;
+        font-size: 70%;
+      }
+    
+    .program-btn__padd {
+        padding-top: 2%;
+        padding-bottom: 20%;
+    }
+
+      /* program */
+
+    
     
 }
 
