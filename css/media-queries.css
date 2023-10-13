@@ -539,5 +539,85 @@
       } */
 
       /*rewies*/
+
+      .contacts {
+        padding-top: 340px;
+        padding-left: 0;
+        font-size: 50%;
+      }      
+
+      .contact h1 {
+        text-align: center;
+      }
+
+      .contact-form {
+        padding: 0 15px 0 15px;
+      }
+
+      .contact-form .input-text {
+        height: 0px;
+      }
+
+      .contact-form .label {
+        font-size: 15px;
+      }
+
+      .lock__right {
+        max-width: 40%;
+        height: 142px;
+        background-size: contain;
+      }
+
+      .contact .btn {
+        width: 100%;
+      }
+
+      .contacts__text {
+        padding-top: 0;
+      }
+      .text-start {
+        text-align: center !important;
+      }
+
+      /*contacts*/
+
+      .end {
+        padding-top: 40%;
+      }
+
+      .end .nav__padd {
+        padding-right: 40px;
+      }
+
+      .end .logo-CIB {
+        height: 25%;
+        width: 25%;
+      }
+
+      .end .logo-PT {
+        height: 25%;
+        width: 25%;
+      }
+
+      .end .logo-DVFU {
+        height: 25%;
+        width: 15%;
+      }
+
+      .text-end-xs {
+        display: none;
+      }
+
+      .footers {
+        height: 70px;
+        font-size: 92%;
+      }
+       .line__foot {
+        display: none;
+       }
+      
+       .footers .text-end {
+        text-align: center;
+       }
 }
 
