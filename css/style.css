@@ -569,6 +569,13 @@ h2, h3, h4, h5, h6 {
   width: 831px;
   height: 937px;
 }
+.phone__clear__xs {
+  display: none;
+  background: url("../img/phone_clear.png") no-repeat left top;
+  position: absolute;
+  width: 831px;
+  height: 937px;
+}
 
 .be-static {
   position: static;

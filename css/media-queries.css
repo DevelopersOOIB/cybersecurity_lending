@@ -503,5 +503,41 @@
     }
 
       /*query*/
+
+      .reviews {
+        text-align: center;
+      }
+
+      .carousel {
+        padding-top: 0;
+      }
+
+      .carousel__list {
+        width: 90%;
+        height: 100%;
+        perspective: 100%;
+      }
+      .carousel__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 0px;
+        width: 180px;
+        height: 300px;
+        border-radius: 20px;
+      }
+
+      .phone__clear {
+        display: none;
+      }
+
+      /* .phone__clear__xs {
+        max-width: 40%;
+        height: 100%;
+        background-size: contain;
+      } */
+
+      /*rewies*/
 }
 
