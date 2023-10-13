@@ -322,8 +322,13 @@ h2, h3, h4, h5, h6 {
 .lock__left {
   background: url("../img/locks__left.png") no-repeat left top;
   position: absolute;
-  width: 537px;
+  width: 440px;
   height: 527px;
+  background-size: contain;
+}
+
+.col_xs {
+  display: none;
 }
 
 .req__text {
@@ -336,17 +341,10 @@ h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 
-.title__tt {
-  font-family: "Gotham Pro Light", sans-serif;
-  font-size: 15px;
-}
-
 .border-w {
   border-radius: 30px;
   padding-top: 20px;
   padding-left: 30px;
-  /* padding-bottom: 30px;
-  padding-right: 45px; */
 }
 
 .border-os {
@@ -403,8 +401,8 @@ h2, h3, h4, h5, h6 {
   font-size: 20px;
   padding-top: 50px;
 }
-price__line
-.lector__titile {
+
+.lector__title {
   font-family: "Gotham Pro Light", sans-serif;
   font-size: 20px;
 }
