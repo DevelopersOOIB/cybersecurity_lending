@@ -400,7 +400,45 @@
     
     /*lectors*/
 
+
+    .hero__2 {
+        display: none;
+
+    }
+
+    .resume__con {
+        padding-top: 0;
+      }
     
+      .resume__con h1 {
+        text-align: center;
+      }  
+
+
+      .resume {
+        padding-bottom: 0;
+        text-align: center;
+      }
+      
+      .resume__padd {
+        padding-top: 0;
+      }
+      
+      .resume__resume {
+        font-size: 17px;
+      }
+      
+      /* .line {
+        width: 600px;
+      } */
+      
+      .resume__text {
+        font-size: 17px;
+        text-align: left;
+      }
+
+
+    /*resume*/
     
 }
 
