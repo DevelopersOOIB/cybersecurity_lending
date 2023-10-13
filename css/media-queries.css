@@ -302,6 +302,7 @@
 
     .lock__left {
         max-width: 40%;
+        height: 142px;
         background-size: contain;
 
     }
@@ -406,6 +407,11 @@
 
     }
 
+    .hero__2__small {
+        display: block;
+        background-size: contain;
+      }
+
     .resume__con {
         padding-top: 0;
       }
@@ -428,9 +434,9 @@
         font-size: 17px;
       }
       
-      /* .line {
-        width: 600px;
-      } */
+      .line {
+        width: 100%;
+      }
       
       .resume__text {
         font-size: 17px;

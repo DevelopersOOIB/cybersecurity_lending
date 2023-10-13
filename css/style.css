@@ -414,6 +414,14 @@ h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+.hero__2__small {
+  display: none;
+  background: url('../img/hero2.png') no-repeat left top;
+  width: 177px;
+  height: 210px;
+  left: 0;
+}
+
 .resume__con {
   padding-top: 170px;
 }
