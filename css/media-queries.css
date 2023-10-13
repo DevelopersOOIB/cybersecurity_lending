@@ -4,6 +4,10 @@
 
 @media screen and (max-width: 376px) {  
 
+    /* * {
+        border: 1px solid #f00;
+     } */
+        
     body {
         padding-top: 15px;
     }
@@ -58,7 +62,9 @@
     }
 
     /* .nav */
-
+    .row__sixe {
+        width: 100%;
+    }
 
 
     .main__title {
@@ -490,13 +496,13 @@
     }    
 
     .arrow {
-        width: 9%;
+        width: 100%;
         margin: 0 100%;
     }
       
     .arrow span {
-        top: 0;
-        width: 1rem;
+        top: 50%;
+        width: 1.5rem;
         height: 0.1rem;
     }
 
