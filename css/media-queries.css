@@ -2,7 +2,632 @@
     
 }
 
-@media screen and (max-width: 430px) {  
+@media screen and (501px < width < 621px) {  
+
+    /* * {
+        border: 1px solid #f00;
+     } */
+        
+    body {
+        padding-top: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+      }
+      
+      h2, h3, h4, h5, h6 {
+        font-size: 12px;
+      
+      }
+
+    .main, .who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions, .reviews, .contact, .main__price, .query {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+    .nav {
+        height: 60px;
+        margin-top: 0;
+    }
+
+    .nav__logo {
+        text-align: center;
+    }
+
+    .nav .logo-PT {
+        max-width: 30%;
+        height: auto;
+    }
+    .nav .logo-DVFU {
+        max-width: 15%;
+        height: auto;
+    }
+    .nav .logo-CIB {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .nav svg {
+        max-width: 40%;
+        height: auto;
+    }
+    
+    .nav .nav__padd {
+        padding-right: 10%;
+    }
+
+    .nav #nav__btn, .nav #nav__mail {
+        display: none;
+    }
+
+    /* .nav */
+    .row__sixe {
+        width: 100%;
+    }
+
+
+    .main__title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .main__text {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .main__padd {
+        padding-top: 50px;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 150px;
+        height: 50%;
+    }
+
+    .btn-o {
+        font-size: 12px;
+        height: 42px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .hero {
+        background-size: cover;
+        max-width: 90%;
+        height: 3%;
+
+    }
+
+    .main__title2 {
+        font-size: 12px;
+    }
+
+    .main__title2 b {
+        font-size: 12px;
+      }
+
+    .main__start {
+    padding-top: 80px;
+    }
+
+    .main__title2 {
+        text-align: center; 
+        width: 600px;
+        height: 10%;
+        line-height: 132%;
+        padding: 20px 50px;        
+    }
+
+    .main__hero {
+        padding-bottom: 15%;
+      }
+
+    /* .main */
+
+
+    .main__price h5 {
+        text-align: center;
+        font-size: 100%;
+        font-family: "Gotham Pro Black", sans-serif;
+    }
+
+    .main__price .offset-2 {
+        margin-left: 0;
+    }
+
+    .price__text {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+      
+    .price__title {
+        font-size: 12px;
+    }
+
+    .main__row__padd img {
+       max-width: 10%;
+       height: auto;
+       transform: rotate(90deg);
+    }
+
+    .main__row__padd {
+        padding-top: 10%;
+    }
+    
+    .hand {
+        display: none;
+    }
+
+    .hand__xs {
+        display: inline;
+    }
+
+    /* .main__price */
+
+    .who h1 {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .for-whom__padd {
+        padding-top: 10%;
+        font-size: 90%;
+    }
+
+    .for-whom__N {
+        width: 70%;
+        font-size: 130%;
+        font-family: "Gotham Pro Black", sans-serif;
+    }
+
+    .whom {
+        display: none;
+    }
+
+    .whom__xs {
+        max-width: 70%;
+        height: 10%;
+        display: inline;
+        background-size: contain;
+    }
+    /* who */
+
+
+    .why {
+        padding-top: 100%;
+    }
+
+    .why h1 {
+        padding-left: 0%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .phone__xs {
+        display: inline;
+        max-width: 80%;
+        /* height: 100%; */
+    }
+
+    .why-row {
+        margin-left: 0;
+        padding-bottom: 10%;
+      }
+
+    .why-row img {
+        max-width: 10%;
+        height: 10%;
+    }
+
+    .why__header {
+        font-size: 55%;
+        padding-left: 10px;
+        text-transform: uppercase;
+    }
+
+    .why__intro {
+        font-size: 60%;
+        text-transform: uppercase;
+      }
+    /* why */
+
+
+    .blue__line {
+        background-size: 100% 70%;
+    }
+
+    .consultation__padd {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .con__padd {
+        padding-top: 0;
+        padding-left: 0;        
+        padding-right: initial;
+    }
+    
+    .con__btn {
+        font-size: 12px;
+        width: 100%;
+    }
+
+
+    /* blue__line */
+
+    .program {
+        padding-top: 50%;
+    }
+
+    .program h1 {
+        text-align: center;
+    }
+
+    .program p {
+        font-size: 100%;
+    }
+
+    .program ul {
+        font-size: 90%;
+    }
+
+    .btn-program {
+        width: 100%;
+        font-size: 70%;
+      }
+    
+    .program-btn__padd {
+        padding-top: 2%;
+        padding-bottom: 20%;
+    }
+
+    /* program */
+
+    .req h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .req p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .lock__left {
+        max-width: 40%;
+        height: 142px;
+        background-size: contain;
+
+    }
+
+    .req__text {
+        font-size: 16px;
+    }
+      
+    .req__title {
+        font-size: 10px;
+        padding-bottom: 10%;
+    }
+      
+    .border-w {
+        border-radius: 30px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+      
+    .border-os {
+        width: 50%;
+        height: 100%;
+    }
+      
+    .border-hdd {
+        width: 47%;
+        height: 100%;
+    }
+      
+    .border-ram {
+        width: 47%;
+        height: 100%;
+    }
+      
+    .border-cpu {
+        width: 100%;
+        height: 100%;
+    }
+      
+    .border-vm {
+        width: 100%;
+        height: 100%;
+    }
+      
+    .border-po {
+        width: 100%;
+        height: 100%;
+    }
+      
+    .hdd, .cpu, .tth {
+        padding-bottom: 5%;
+    }
+      
+    .hdd, .ram {
+        padding-right: 0;
+        padding-top: 5%;
+    }
+      
+    .hdd, .ram{
+        padding-left: 0;
+    }
+
+    .row_ram {
+        display: none;
+    }
+
+    .col_xs {
+        display: inline;
+        padding-bottom: 4%;
+    }
+
+    .row_xs {
+        justify-content: space-around;
+    }
+
+    /* req */
+
+    .lector {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+
+    .lector__text {
+        display: block;
+        text-align: center;
+      }
+
+      .lector__title {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 10%;
+      }
+    
+    /*lectors*/
+
+
+    .hero__2 {
+        display: none;
+
+    }
+
+    .hero__2__small {
+        display: block;
+        background-size: contain;
+      }
+
+    .resume__con {
+        padding-top: 0;
+      }
+    
+      .resume__con h1 {
+        text-align: center;
+      }  
+
+
+      .resume {
+        padding-bottom: 0;
+        text-align: center;
+      }
+      
+      .resume__padd {
+        padding-top: 0;
+      }
+      
+      .resume__resume {
+        font-size: 17px;
+      }
+      
+      .line {
+        width: 100%;
+      }
+      
+      .resume__text {
+        font-size: 17px;
+        text-align: left;
+      }
+
+
+    /*resume*/
+
+
+    .price__form {
+        font-size: 100%;
+        width: 100%;
+        height: 400px;
+      }
+    
+    .prices .btn-o {
+        font-size: 100%;
+        width: 300px;
+    }
+
+    .price__line {
+        background-size: 100% 45%;
+        width: 100%;
+    }
+
+      /*price*/
+
+    .query {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    .questions__1 h1 {
+        text-align: center;
+    }
+  
+    
+    /* .query__padd{
+    padding-bottom: 25px;
+    } */
+    
+    .questions__1{
+    padding-bottom: 20px;
+    }
+    
+    .questions__text {
+    font-size: 12px;
+    }
+    
+    .questions__border {
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+    }    
+
+    .arrow {
+        width: 100%;
+        margin: 0 100%;
+    }
+      
+    .arrow span {
+        top: 50%;
+        width: 1rem;
+        height: 0.1rem;
+    }
+
+      /*query*/
+
+      .reviews {
+        text-align: center;
+      }
+
+      .carousel {
+        padding-top: 0;
+      }
+
+      .carousel__list {
+        width: 90%;
+        height: 100%;
+        perspective: 100%;
+      }
+      .carousel__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 0px;
+        width: 180px;
+        height: 300px;
+        border-radius: 20px;
+      }
+
+      .phone__clear {
+        display: none;
+      }
+
+      /* .phone__clear__xs {
+        max-width: 40%;
+        height: 100%;
+        background-size: contain;
+      } */
+
+      /*rewies*/
+
+      .contacts {
+        padding-top: 340px;
+        padding-left: 0;
+        font-size: 50%;
+      }      
+
+      .contact h1 {
+        text-align: center;
+      }
+
+      .contact-form {
+        padding: 0 15px 0 15px;
+      }
+
+      .contact-form .input-text {
+        height: 0px;
+      }
+
+      .contact-form .label {
+        font-size: 15px;
+      }
+
+      .lock__right {
+        max-width: 40%;
+        height: 142px;
+        background-size: contain;
+      }
+
+      .contact .btn {
+        width: 100%;
+      }
+
+      .contacts__text {
+        padding-top: 0;
+      }
+      .text-start {
+        text-align: center !important;
+      }
+
+      /*contacts*/
+
+      .end {
+        padding-top: 40%;
+      }
+
+      .end .nav__padd {
+        padding-right: 40px;
+      }
+
+      .end .logo-CIB {
+        height: 25%;
+        width: 25%;
+      }
+
+      .end .logo-PT {
+        height: 25%;
+        width: 25%;
+      }
+
+      .end .logo-DVFU {
+        height: 25%;
+        width: 15%;
+      }
+
+      .text-end-xs {
+        display: none;
+      }
+
+      .footers {
+        height: 70px;
+        font-size: 92%;
+      }
+       .line__foot {
+        display: none;
+       }
+      
+       .footers .text-end {
+        text-align: center;
+       }
+}
+
+
+
+@media screen and (max-width: 500px) {  
 
     /* * {
         border: 1px solid #f00;
