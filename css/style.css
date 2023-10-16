@@ -88,7 +88,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .main__padd {
-  padding-top: 50px;
+  padding-top: 25px;
   padding-right: 20px;
 }
 
@@ -149,12 +149,12 @@ h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  background: url("../img/hero_test.png") no-repeat center top;
+  background: url("../img/hero_test.png") no-repeat right top;
   position: absolute;
-  width: 1560px;
-  height: 1080px; 
+  background-size: 55%;
+  width: 1694px;
+  height: 1376px; 
 }
-/* #fish {padding: 0px, 175px, 60px, 899px; position:relative} */
 
 .main__hero {
   padding-bottom: 140px;
