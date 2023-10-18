@@ -1,3 +1,7 @@
+  /* * {
+        border: 1px solid #f00;
+     } */
+
 @font-face {
   font-family: "Gotham Pro Light";
   src: url("../fonts/GothamPro-Light.eot");
@@ -14,6 +18,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Gotham Pro Light", sans-serif;
   background: #161616;
   color: #fff;
@@ -152,7 +157,7 @@ h2, h3, h4, h5, h6 {
   background: url("../img/hero_test.png") no-repeat right top;
   position: absolute;
   background-size: 55%;
-  width: 1694px;
+  width: 1600px;
   height: 1376px; 
 }
 
@@ -213,6 +218,10 @@ h2, h3, h4, h5, h6 {
   right: 0;
   width: 543px;
   height: 735px;
+}
+
+.row__size {
+  width: 100%;
 }
 
 .whom__xs {
@@ -498,7 +507,7 @@ h2, h3, h4, h5, h6 {
   padding-top: 100px;
   background: url("../img/price__line.png") no-repeat;
   position: absolute;
-  width: 1920px;
+  width: 1870px;
   height: 1080px;
   left: 0;
 }
