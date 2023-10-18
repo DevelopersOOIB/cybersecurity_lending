@@ -99,6 +99,12 @@
     .hero {
         display: none;
     }
+
+    .hero__xs {
+      display: block;
+      margin-top: -15%;
+      margin-left: -10%;
+    }
     
     .main__title2 {
         font-size: 12px;

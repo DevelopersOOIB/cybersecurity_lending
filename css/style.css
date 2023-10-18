@@ -156,6 +156,15 @@ h2, h3, h4, h5, h6 {
   height: 1376px; 
 }
 
+.hero__xs {
+  display: none;
+  background: url("../img/hero_test.png") no-repeat right top;
+  position: absolute;
+  background-size: 55%;
+  width: 1694px;
+  height: 1376px; 
+}
+
 .main__hero {
   padding-bottom: 140px;
 }
