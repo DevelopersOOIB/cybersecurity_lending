@@ -685,6 +685,19 @@
     text-align: center !important;
   }
 
+  .footers__title {
+    font-size: 53%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footers__text {
+    font-size: 53%;
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 499.99px) {
@@ -1366,8 +1379,17 @@
     text-align: center !important;
   }
 
-  .footers .row {
+  .footers__title {
+    font-size: 53%;
+    width: 100%;
     text-align: center;
-    font-size: 70%;
   }
+
+  .footers__text {
+    font-size: 53%;
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+  }
+
 }
