@@ -95,6 +95,7 @@
     text-align: center;
     padding-top: 35px;
     padding-bottom: 35px;
+    width: 100%;
   }
 
   .main__padd {
@@ -114,18 +115,18 @@
     white-space: nowrap;
   }
 
+  .btn__main {
+    width: 50%;
+  }
+
   .hero {
     display: none;
   }
 
   .hero__xs {
     display: block;
-    margin-top: -15%;
     margin-left: -10%;
-  }
-
-  .main__title2 {
-    font-size: 12px;
+    background-size: 40%;
   }
 
   .main__title2 b {
@@ -138,16 +139,46 @@
 
   }
 
+  .main__blok {
+    width: 100%;
+  }
+
   .main__title2 {
     text-align: center;
-    width: 100%;
-    height: 10%;
+    height: 25%;
     line-height: 132%;
-    padding: 20px 50px;
+    font-size: 12px;
+    padding-top: 0;
+    border-radius: 40px;
+  }
+
+  .main__title2__title {
+    font-size: 120%;
+  }
+
+  .less {
+    text-align: left;
+  }
+
+  .less .price__money {
+    margin-top: 2%;
+    font-size: 160%;
+    text-align: left;
+  }
+  
+  .diplom {
+    margin-top: max(20%);
+    font-size: 100%;
+    text-align: center;
   }
 
   .main__hero {
     padding-bottom: 7%;
+  }
+
+  .online {
+    font-size: 150%;
+    text-align: center;
   }
 
   /* .main */
@@ -193,7 +224,7 @@
   /* .main__price */
 
   .who h1 {
-    padding-top: 50px;
+    padding-top: 0;
     text-align: center;
     font-size: 200%;
   }
@@ -224,7 +255,7 @@
 
 
   .why {
-    padding-top: 70%;
+    padding-top: 50%;
   }
 
   .why h1 {
@@ -643,7 +674,7 @@
   /*contacts*/
 
   .end {
-    padding-top: 40%;
+    padding-top: 30%;
   }
 
   .end .col-md-7 {
@@ -687,13 +718,13 @@
   }
 
   .footers__title {
-    font-size: 53%;
+    font-size: 90%;
     width: 100%;
     text-align: center;
   }
 
   .footers__text {
-    font-size: 53%;
+    font-size: 90%;
     padding-top: 2%;
     width: 100%;
     text-align: center;
