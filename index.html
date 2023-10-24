@@ -51,38 +51,42 @@
             <!-- /.nav -->
             <div class="main">
                 <div class="container-fluid main__hero">
-                    <div class="row">
-                        
-                        
-                        <div class="col-md-12">
+                    <div class="row">   
+                        <div class="col-12">
                             <div class="row">
-                                <h1 class="col-md-auto main__title">
+                                <h1 class="col-auto main__title">
                                     АДМИНИСТРИРОВАНИЕ И БЕЗОПАСНОСТЬ КОМПЬЮТЕРНЫХ СИСТЕМ
                                 </h1>
-                                <div class="col-md-6  z-n1">
+                                <div class="col-6 z-n1">
                                     <div class="hero"></div>
                                 </div>                                                               
                             </div>
                             <div class="row">
-                                <p class="col-md-7 main__text">
-                                    ПЕРВАЯ ПАРТНЕРСКАЯ ПРОГРАММА ДВФУ С ОДНИМ ИЗ ЛИДЕРОВ В СФЕРЕ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ
+                                <p class="col-8 main__text">
+                                    Программа профессиональной переподготовки, разработанная командой экспертов Positive Technologies
                                 </p>
                             </div>
-                            <div class="row main__padd">
-                                <div class="hero__xs z-n1"></div>
-                                <div class="col-md-auto">
-                                    <button type="button" class="btn">ЗАПИСАТЬСЯ</button>
+                            <div class="row">
+                                <div class="col-6 main__blok">
+                                    <div class="row main__start main__title2">
+                                        <p class="main__title2__text">СТАРТ ПОТОКА <b>05 ФЕВРАЛЯ 2024</b></p><br>                            
+                                        <p class="main__title2__title">ЗАПИСЬ ДО 25 ЯНВАРЯ 2024</p>                            
+                                    </div>
+                                    <div class="row main__padd">
+                                        <div class="hero__xs z-n1"></div>
+                                        <button type="button" class="btn btn__main">ЗАПИСАТЬСЯ</button>
+                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="less" id="">
+                                            <h1 class="price__money" id="priceMoney"></h1>
+                                            <span id="discountedPrice"></span>
+                                            <h4>возможна расрочка на 3 мес.</h4>
+                                            <h5 class="diplom">12 недель / 252 часа / диплом гос образца</h5>
+                                            <h5 class="online">очно или онлайн</h5>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-auto">
-                                    <button type="button" class="btn btn-o">ВИДЕО О КУРСЕ</button>
-                                </div>
-                                                                
-                            </div>
-                            <div class="row main__start">
-                                <p class="col-md-4 main__title2">
-                                    <span class="text-center">СТАРТ ПОТОКА <b>1 ОКТЯБРЯ 2023</b></span><br>                            
-                                    <span class="text-start small">ЗАПИСЬ ДО 20 СЕНТЯБРЯ 2023</span>                            
-                                </p>                        
                             </div>
                         </div>
                     </div>                 
@@ -168,30 +172,30 @@
                 <div class="container-fluid">                    
                 <div class="phone z-n1"></div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-12">
                         <h1>ПОЧЕМУ НАШ КУРС?</h1>
                     </div>
                 </div>
                 <div class="row why-row">
-                    <div class="col-md-12 why__plus">
+                    <div class="col-12 why__plus">
                         <img src="img/plus.png" class="img__why" alt="plus" srcset="">
                         <p class="why__header">Минимум теории - больше практики<br><span class="why__intro">Все задания разработаны совместно с экспертами<br>команды Positive Technologies</span></p>
                     </div>
                 </div>
                 <div class="row why-row">
-                    <div class="col-md-12 why__plus">
+                    <div class="col-12 why__plus">
                         <img src="img/plus.png" class="img__why" alt="plus" srcset="">
                         <p class="why__header">Обучение у лучших экспертов<br><span class="why__intro">Только практика, только хардкор! А помогут тебе с этим<br>действующие специалисты по кибербезопасности</span></p>
                     </div>
                 </div>
                 <div class="row why-row">
-                    <div class="col-md-12 why__plus">
+                    <div class="col-12 why__plus">
                         <img src="img/plus.png" class="img__why" alt="plus" srcset="">
                         <p class="why__header">Удобный формат занятий<br><span class="why__intro">Уроки представлены как в текстовом,<br>так и в видео-форматах</span></p>
                     </div>
                 </div>
                 <div class="row why-row">
-                    <div class="col-md-12 why__plus">
+                    <div class="col-12 why__plus">
                         <img src="img/plus.png" class="img__why" alt="plus" srcset="">
                         <p class="why__header z-1">Поддержка кураторов на всех этапах обучения<br><span class="why__intro">Преподаватель будет проверять домашние задания,<br>отслеживать процесс обучения и отвечать на все<br>вопросы в рамках программы</span></p>
                     </div>
@@ -436,7 +440,8 @@
                         <div class="col-md-4 price__form">
                             <div class="row">
                                 <div class="col-md-auto">
-                                    <h1 class="price__money">80 000p.</h1>
+                                    <h1 class="price__money" id="priceMoney"></h1>
+                                    <span id="discountedPrice"></span>
                                     <p><b>СПОСОБ ОПЛАТЫ:</b></p>
                                     <ul  class="price__pay">
                                         <li>переводом на карту</li>
@@ -701,10 +706,8 @@
             </div>
             <div class="container-fluid footers">
                 <div class="row">
-                    <div class="col-md-2  my-auto">2023 ВСЕ ПРАВА ЗАЩИЩЕНЫ</div>
-                    <div class="col-md-1 text-center line__foot">|</div>
-                    <div class="col-md-3"><a href="https://dpo.dvfu.ru/policy" target="_blank">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
-                    <div class="col-md-6 text-end">ИНН 2536014538, ОГРН 1022501297785</div>
+                    <div class="col-9 footers__title">2023 ВСЕ ПРАВА ЗАЩИЩЕНЫ | <a href="https://dpo.dvfu.ru/policy" target="_blank">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
+                    <div class="col-3 footers__text">ИНН 2536014538, ОГРН 1022501297785</div>
                 </div>
             </div>       
         </header>
@@ -713,5 +716,6 @@
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/arrow.js"></script>
         <script type="text/javascript" src="js/carousel.js"></script>
+        <script src="js/price.js" type="text/javascript"></script>
     </body>
 </html>

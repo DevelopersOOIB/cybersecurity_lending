@@ -780,12 +780,17 @@
   .main__text {
     font-size: 14px;
     text-align: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
   }
 
   .main__padd {
-    padding-top: 50px;
+    padding-top: 70px;
+  }
+
+  .main__blok {
+    width: 100%;
   }
 
   .btn {
@@ -809,10 +814,7 @@
     display: block;
     margin-top: -15%;
     margin-left: -10%;
-  }
-
-  .main__title2 {
-    font-size: 12px;
+    background-size: 45%;
   }
 
   .main__title2 b {
@@ -825,18 +827,35 @@
 
   .main__title2 {
     text-align: center;
-    width: 600px;
-    height: 10%;
+    height: 25%;
     line-height: 132%;
-    padding: 20px 50px;
+    font-size: 12px;
+    padding-top: 0;
+    border-radius: 40px;
+  }
+
+  .main__title2__title {
+    font-size: 16px;
+  }
+
+  .less .price__money {
+    margin-top: 10%;
+    font-size: 35px;
   }
 
   .main__hero {
     padding-bottom: 15%;
   }
 
+  .online {
+    font-size: 20px;
+  }
+
   /* .main */
 
+  .main__price {
+    margin-top: 15%;
+  }
 
   .main__price h5 {
     text-align: center;
@@ -878,7 +897,6 @@
   /* .main__price */
 
   .who h1 {
-    padding-top: 50px;
     text-align: center;
     font-size: 120%;
   }
@@ -1224,6 +1242,9 @@
     height: 0.1rem;
   }
 
+  .collaps__questions__border {
+    padding-left: 2%;
+  }
   /*query*/
 
   .reviews {
