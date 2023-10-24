@@ -4,10 +4,10 @@ let discountedEndDate = new Date("2023-10-20");
 
 let curentDate = new Date();
 
-if (curentDate < discountedEndDate) {
-    document.getElementById('priceMoney').textContent = priceMoneys;
-    document.getElementById('discountedPrice').textContent = discountedPrice;
-} else {
-    document.getElementById('priceMoney').textContent = priceMoneys;
-    document.getElementById('discountedPrice').textContent = "";
-};
+function updatePrice(elementId, price, discountPrice, endDate, currentDate) {
+    document.getElementById(`priceMoney${elementId}`).textContent = price;
+    document.getElementById(`discountedPrice${elementId}`).textContent = currentDate < endDate ? discountPrice : "";
+}
+
+updatePrice('1', priceMoneys, discountedPrice, discountedEndDate, curentDate);
+updatePrice('2', priceMoneys, discountedPrice, discountedEndDate, curentDate);
