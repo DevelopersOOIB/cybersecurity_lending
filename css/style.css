@@ -267,6 +267,10 @@ h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.row__size .col-11 {
+  margin: auto;
+}
+
 .whom__xs {
   background: url("../img/for__whom.png") no-repeat right top;
   position: absolute;
@@ -717,7 +721,7 @@ h2, h3, h4, h5, h6 {
   margin: 32px 0;
 }
 .contact-form .input-text {
-  background-color: #161616;
+  background-color: rgb(0, 0, 0, 0);
   display: block;
   width: 100%;
   height: 36px;
@@ -735,6 +739,7 @@ h2, h3, h4, h5, h6 {
 .contact-form .input-text.not-empty + .label {
   display: none;
 }
+
 .contact-form .label {
   position: absolute;
   left: 20px;
@@ -791,4 +796,30 @@ h2, h3, h4, h5, h6 {
   text-align: end;
 }
 
+/* modal */
+
+.modal-dialog {
+  width: 50% !important;
+  --bs-modal-width: none;
+}
+
+.modal-content {
+  background-color: #0062C8;
+  border-radius: 60px !important;
+  text-align: center;
+  gap: 10
+  ;
+}
+
+.modal-body {
+  padding: 10%;
+}
+
+.modal-body .lable__modal {
+  color: #FFF;
+}
+
+.modal-body .contacts__text {
+  color: #FFF;
+}
 /*# sourceMappingURL=style.css.map */

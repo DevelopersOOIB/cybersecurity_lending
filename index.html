@@ -40,9 +40,53 @@
                                 </div>
                             </div>                                                        
                         </div>
-                        <div class="col-md-2 my-auto" id="nav__btn">
+                        <div class="col-md-2 my-auto" data-bs-toggle="modal" data-bs-target="#Modal" id="nav__btn">
                             <a type="button" class="btn">ЗАПИСАТЬСЯ</a>
-                        </div>                     
+                        </div>
+                        <!-- test modal -->
+                        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h1 class="modal-title" id="ModalLabel">Запишись на курс</h1>
+                                        </div>
+                                        <div class="col-12">
+                                            <h5 class="modal-text" id="ModalLabel">оставь свои контактные данные для связи</h5>
+                                        </div>
+                                    </div>
+                                    <form class="contact-form row">
+                                        <div class="form-field col-md-12">
+                                           <input id="name" class="input-text" type="text" required>
+                                           <label class="label lable__modal" for="name">ИМЯ</label>
+                                        </div>
+                                        <div class="form-field col-md-12">
+                                           <input id="phone" class="input-text" type="text" required>
+                                           <label class="label lable__modal" for="phone">ТЕЛЕФОН</label>
+                                        </div>
+                                        <div class="form-field col-md-12">
+                                           <input id="email" class="input-text" type="email" required>
+                                           <label class="label lable__modal" for="email">E-MAIL</label>
+                                        </div>
+                                         <div class="form-field col-md-12">
+                                           <input id="promocod" class="input-text" type="text">
+                                           <label class="label lable__modal" for="promocod">ПРОМОКОД</label>
+                                        </div>
+                                        <div class="form-field col-md-6">
+                                            <button class="btn btn-o">отправить</button>
+                                        </div>
+                                        <div class="col-md-6 contacts__text text-start">
+                                            Нажимая на кнопку, вы соглашаетесь<br>с
+                                            <a href="https://dpo.dvfu.ru/policy" target="_blank">политикой конфиденциальности</a> 
+                                        </div>
+                                    </form>
+                                </div>                                
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                     </div>                    
                     <!-- /.row -->                        
                 </div>
@@ -74,7 +118,7 @@
                                     </div>
                                     <div class="row main__padd">
                                         <div class="hero__xs z-n1"></div>
-                                        <button type="button" class="btn btn__main">ЗАПИСАТЬСЯ</button>
+                                        <button type="button" class="btn btn__main" data-bs-toggle="modal" data-bs-target="#Modal">ЗАПИСАТЬСЯ</button>
                                         
                                     </div>
                                     <div class="row">
@@ -210,7 +254,7 @@
                 <div class="row consultation">
                     <div class="blue__line z-n1"></div>
                     <div class="col-md-auto consultation__padd"><p>УСПЕЙ ЗАПИСАТЬСЯ<br>НА ОКТЯБРЬСКИЙ ПОТОК</p></div>
-                    <div class="col-md-auto con__padd"><button type="button" class="btn btn-o con__btn">получить консультацию</button></div>
+                    <div class="col-md-auto con__padd"><button type="button" class="btn btn-o con__btn" data-bs-toggle="modal" data-bs-target="#Modal">получить консультацию</button></div>
                 </div>                        
             </div>
             <!-- /.container-fluid -->
@@ -449,7 +493,7 @@
                                         <li>по qr-коду</li>
                                         <li>рассрочкой на 3 месяца<br>БЕЗ ПРОЦЕНТОВ</li>
                                     </ul>
-                                    <button class="btn btn-o btn__price">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                                    <button class="btn btn-o btn__price" data-bs-toggle="modal" data-bs-target="#Modal">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
                                 </div>
                             </div>
                         </div>
@@ -627,7 +671,7 @@
                                             </div>
                                         </li>
                                     </ul>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                         <!-- /.col-md-auto -->
@@ -648,15 +692,15 @@
                                <label class="label" for="name">ИМЯ</label>
                             </div>
                             <div class="form-field col-md-12">
-                               <input id="phone" class="input-text" type="email" required>
+                               <input id="phone" class="input-text" type="text" required>
                                <label class="label" for="phone">ТЕЛЕФОН</label>
                             </div>
                             <div class="form-field col-md-12">
-                               <input id="email" class="input-text" type="text" required>
+                               <input id="email" class="input-text" type="email" required>
                                <label class="label" for="email">E-MAIL</label>
                             </div>
                              <div class="form-field col-md-12">
-                               <input id="promocod" class="input-text" type="text" required>
+                               <input id="promocod" class="input-text" type="text">
                                <label class="label" for="promocod">ПРОМОКОД</label>
                             </div>
                             <div class="form-field col-md-6">
@@ -699,7 +743,7 @@
                         <div class="col-md-3 my-auto">АДМИНИСТРИРОВАНИЕ И БЕЗОПАСНОСТЬ КОМПЬЮТЕРНЫХ СИСТЕМ</div>
                         <div class="col-md-2 offset-4 text-end my-auto">Г. ВЛАДИВОСТОК, ДВФУ, О. РУССКИЙ</div>
                         <div class="col-md-2">
-                            <button type="button" class="btn">ЗАПИСАТЬСЯ</button>
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modal">ЗАПИСАТЬСЯ</button>
                         </div> 
                     </div>
                 </div>                
