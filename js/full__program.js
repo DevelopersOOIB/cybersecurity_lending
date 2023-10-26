@@ -8,9 +8,6 @@ function downloadFile(url, filename) {
 
     document.body.appendChild(link);
 
-    // Кликаем по ссылке
-    link.click();
-
     // Удаляем ссылку из DOM
     document.body.removeChild(link);
 }
