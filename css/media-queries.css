@@ -777,7 +777,7 @@
      } */
 
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     padding-top: 15px;
   }
 
@@ -1041,7 +1041,7 @@
   }
 
   .why__header {
-    font-size: 55%;
+    font-size: 50%;
     padding-left: 10px;
     text-transform: uppercase;
   }
