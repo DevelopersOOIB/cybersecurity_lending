@@ -271,7 +271,7 @@
   .phone__xs {
     display: inline;
     max-width: 70%;
-    /* height: 100%; */
+    height: 335px;
   }
 
   .blue__line__padd {
@@ -978,12 +978,12 @@
 
   .phone {
     display: none;
-  }
+  } 
 
   .phone__xs {
     display: inline;
     max-width: 80%;
-    /* height: 100%; */
+    height: 335px;
   }
 
   .why-row {
@@ -1410,6 +1410,41 @@
     padding-top: 2%;
     width: 100%;
     text-align: center;
+  }
+
+  .modal {
+    margin: auto;
+    padding-top: 4%;
+    --bs-modal-margin: 0;
+  }
+  .modal-dialog {
+    width: 100% !important;
+    --bs-modal-width: none;
+  }
+  
+  .modal-content {
+    background-color: #0062C8;
+    border-radius: 60px !important;
+    text-align: center;
+  }
+  
+  .modal-body {
+    padding: 10%;
+  }
+
+  .modal-body .contact-form {
+    padding-top: 15%;
+  }
+  
+  .modal-body .contact-form .btn {
+    width: 100%;
+  }
+  .modal-body .lable__modal {
+    color: #FFF;
+  }
+  
+  .modal-body .contacts__text {
+    color: #FFF;
   }
 
 }

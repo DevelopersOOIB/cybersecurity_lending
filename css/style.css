@@ -196,6 +196,11 @@ h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+.price__btn {
+  margin: auto;
+  width: 100%;
+}
+
 .hero {
   background: url("../img/hero_test.png") no-repeat right top;
   position: absolute;
