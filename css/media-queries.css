@@ -724,6 +724,50 @@
     text-align: center;
   }
 
+  .modal {
+    margin: auto;
+    padding-top: 4%;
+    --bs-modal-margin: 0;
+  }
+  .modal-dialog {
+    width: 90% !important;
+    --bs-modal-width: none;
+    margin: auto;
+  }
+  
+  .modal-content {
+    background-color: #0062C8;
+    border-radius: 60px !important;
+    text-align: center;
+  }
+  
+  .modal-body {
+    padding: 10%;
+  }
+
+  .modal-body h1 {
+    font-size: 7vw;
+  }
+  
+  .modal-body .text-start {
+    font-size: 100%;
+  }
+
+  .modal-body .contact-form {
+    padding-top: 15%;
+  }
+  
+  .modal-body .contact-form .btn {
+    width: 100%;
+  }
+  .modal-body .lable__modal {
+    color: #FFF;
+  }
+  
+  .modal-body .contacts__text {
+    color: #FFF;
+  }
+
 }
 
 @media screen and (max-width: 499.99px) {
@@ -1430,6 +1474,10 @@
   
   .modal-body {
     padding: 10%;
+  }
+
+  .modal-body h1 {
+    font-size: 7vw;
   }
 
   .modal-body .contact-form {
