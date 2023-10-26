@@ -4,7 +4,7 @@ function downloadFile(url, filename) {
     link.download = filename;
 
     // Делаем ссылку невидимой
-    link.style.display = 'none';
+    // link.style.display = 'none';
 
     document.body.appendChild(link);
 
