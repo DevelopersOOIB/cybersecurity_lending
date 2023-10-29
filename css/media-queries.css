@@ -1,17 +1,19 @@
 @media screen and (min-width: 1920px) {}
 
-@media screen and (500px <= width < 700px) {
+
+
+@media screen and (768px <= width < 1000px) {
   /* * {
         border: 1px solid #f00;
      } */
 
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     padding-top: 15px;
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 300%;
   }
 
   h2,
@@ -19,7 +21,7 @@
   h4,
   h5,
   h6 {
-    font-size: 12px;
+    font-size: 120%;
 
   }
 
@@ -42,41 +44,36 @@
   }
 
   .nav {
-    height: 95px;
-    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  
+  .nav__mail__tg {
+  
+    text-align: right;
+    padding-right: 0;
+  }
+
+  .nav .col-5 {
+    width: 66%;
   }
 
   .nav__logo {
-    text-align: center;
+    padding-right: 0;
+    width: 37%;
   }
-
-  .nav .logo-PT {
-    max-width: 30%;
-    height: auto;
+  
+  .logo__dvfu {
+    width: 20%;
   }
-
-  .nav .logo-DVFU {
-    max-width: 15%;
-    height: auto;
-  }
-
-  .nav .logo-CIB {
-    max-width: 30%;
-    height: auto;
-  }
-
-  .nav svg {
-    max-width: 40%;
-    height: auto;
-  }
-
-  .nav .nav__padd {
-    padding-right: 10%;
-  }
-
-  .nav #nav__btn,
-  .nav #nav__mail {
+  
+  
+  
+  .nav__mail, .nav__btn {
     display: none;
+  }
+  
+  .telegram {
+    width: 25%;
   }
 
   /* .nav */
@@ -86,12 +83,12 @@
 
 
   .main__title {
-    font-size: 22px;
+    font-size: 200%;
     text-align: center;
   }
 
   .main__text {
-    font-size: 14px;
+    font-size: 120%;
     text-align: center;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -130,7 +127,7 @@
   }
 
   .main__title2 b {
-    font-size: 12px;
+    font-size: 100%;
   }
 
   .main__start {
@@ -152,23 +149,31 @@
     border-radius: 40px;
   }
 
+  .main__title2__text {
+    font-size: 200%;
+  }
+
   .main__title2__title {
-    font-size: 120%;
+    font-size: 200%;
   }
 
   .less {
     text-align: left;
   }
 
+  .less h4 {
+    padding-left: 1%;
+  }
+
   .less .price__money {
     margin-top: 2%;
-    font-size: 160%;
+    font-size: 200%;
     text-align: left;
+    padding-left: 1%;
   }
   
   .diplom {
     margin-top: max(20%);
-    font-size: 100%;
     text-align: center;
   }
 
@@ -177,7 +182,620 @@
   }
 
   .online {
-    font-size: 150%;
+    font-size: 200%;
+    text-align: center;
+  }
+
+  /* .main */
+
+
+  .main__price h5 {
+    text-align: center;
+    font-size: 165%;
+    font-family: "Gotham Pro Black", sans-serif;
+  }
+
+   .hand {
+    width: 161px;
+    height: 177px;
+  } 
+  
+  .price__text {
+    font-size: 12px;
+  }
+
+  .price__title {
+    font-size: 18px;
+  }
+
+  /* .main__price */
+
+  .whom {
+    background-size: 60%;
+  }
+
+  .for-whom__padd .col-md-4, .for-whom__padd .col-md-6, .for-whom__padd .col-md-7  {
+    width: 100%;
+  }
+
+  /* who */
+
+
+  .why {
+    padding-top: 5%;
+  }
+
+  .why h1 {
+    padding-left: 0%;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .phone__xs {
+    display: inline;
+    max-width: 70%;
+    height: 560px;
+  }
+
+  .blue__line__padd {
+    padding-top: 10%;
+  }
+
+  .why-row {
+    margin-left: 0;
+    padding-bottom: 7%;
+  }
+
+  .why-row img {
+    max-width: 10%;
+    height: 10%;
+  }
+
+  .why__header {
+    font-size: 100%;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+
+  .why__intro {
+    font-size: 90%;
+    text-transform: uppercase;
+  }
+
+  /* why */
+
+
+  .blue__line {
+    background-size: 100% 90%;
+  }
+
+  .consultation__padd {
+    font-size: 120%;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+  }
+
+  .con__padd {
+    padding-top: 35%;
+    padding-left: 0;
+    padding-right: initial;
+    margin: auto;
+  }
+
+  .con__btn {
+    font-size: 12px;
+    width: 100%;
+  }
+
+
+  /* blue__line */
+
+  .program {
+    padding-top: 32%;
+  }
+
+  .program .col-md-1 {
+    width: 100%;
+  }
+
+  .program h1 {
+    text-align: center;
+  }
+
+  .program p {
+    font-size: 100%;
+  }
+
+  .program ul {
+    font-size: 90%;
+  }
+
+  .btn-program {
+    width: 100%;
+    font-size: 70%;
+  }
+
+  .program-btn__padd {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  /* program */
+
+  .lock__left {
+    display: none;
+
+  }
+ 
+  .req__text {
+    font-size: 31px;
+  }
+
+  .justify-content-end {
+    justify-content: start !important;
+  }
+
+  .border-os {
+    width: 100%;
+    height: 235px;
+  }
+
+  .margin__tth {
+    margin-top: 2%;
+  }
+
+  .hdd,
+  .ram {
+    padding-left: 0;
+  }
+
+  /* req */
+  
+  .lector h1 {
+    text-align: center;
+  }
+
+  .lector__text {
+    display: block;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    padding-bottom: 3%;
+  }
+  
+
+  .lector__title {
+    display: block;
+    text-align: center;
+    font-size: 100%;
+    padding-bottom: 10%;
+  } 
+
+  /*lectors*/
+
+
+  .hero__2 {
+    display: none;
+
+  }
+
+  .hero__2__small {
+    display: block;
+    background-size: 50%;
+    width: 540px;
+    height: 330px;
+  }
+
+  .resume__con {
+    padding-top: 0;
+  }
+
+  .resume__padd {
+    padding-top: 0;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .resume {
+    padding-bottom: 3%;
+  }
+
+  /*resume*/
+
+  .prices h1 {
+    text-align: center;
+  }
+
+  .price__form {
+    width: 690px;
+  }
+
+  .prices .btn-o {
+    font-size: 30px;
+    height: 63px;
+  }
+
+  .prices .btn {
+    width: 90%;
+  }
+
+  .price__line {
+    background-size: 100% 80%;
+    width: 100%;
+  }
+
+  /*price*/
+
+  .query {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .questions__1 h1 {
+    text-align: center;
+    font-size: 200%;
+  }
+
+  .collaps__questions__border {
+    padding-left: 2%;
+  }
+
+  .query__padd{
+  margin: auto;
+  }
+
+  .questions__1 {
+    padding-bottom: 20px;
+  }
+
+  .questions__border {
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+  }
+
+  .arrow-down {
+    width: 30px;
+  }
+  
+
+  /*query*/
+
+  .reviews .justify-content-end {
+    justify-content: center !important;
+  }
+
+  .carousel__item {
+    width: 41vh;
+    margin-top: 26%;
+  }
+
+  .phone__clear {
+    background-size: 40%;
+    width: 620px;
+    height: 830px;
+  }
+
+  /*rewies*/
+
+  .contact h1 {
+    text-align: center;
+    font-size: 275%;
+  }
+
+  .lock__right {
+    background-size: 60%;
+  }
+
+  .contact .btn {
+    width: 100%;
+  }
+
+  .contacts__text {
+    padding-top: 0;
+  }
+
+  .text-start {
+    text-align: center !important;
+    font-size: 100%;
+  }
+
+  /*contacts*/
+
+  .end {
+    padding-top: 10%;
+  }
+
+  .end .col-md-7 {
+    text-align: center;
+  }
+
+
+  .end .logo-CIB {
+    height: 25%;
+    width: 25%;
+  }
+
+  .end .logo-PT {
+    height: 25%;
+    width: 25%;
+  }
+
+  .end .logo-DVFU {
+    height: 25%;
+    width: 15%;
+  }
+
+  .text-end {
+    font-size: 70%;
+  }
+
+  .text-end-xs .offset-4 {
+    margin-left: 0;
+    text-align:  left !important;
+    width: 35%;
+  }
+
+  .text-end-xs .col-md-3 {
+    margin: auto;
+    font-size: 60%;
+  }
+
+  .text-end-xs .col-md-2 {
+    margin: auto;
+    font-size: 47%;
+  }
+
+  /* end */
+
+  .footers__title {
+    font-size: 90%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footers__text {
+    font-size: 100%;
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* footers */
+
+  .modal {
+    margin: auto;
+    padding-top: 4%;
+    --bs-modal-margin: 0;
+  }
+  .modal-dialog {
+    width: 90% !important;
+    --bs-modal-width: none;
+    margin: auto;
+  }
+  
+  .modal-content {
+    background-color: #0062C8;
+    border-radius: 60px !important;
+    text-align: center;
+  }
+  
+  .modal-body {
+    padding: 10%;
+  }
+
+  .modal-body h1 {
+    font-size: 7vw;
+  }
+  
+  .modal-body .text-start {
+    font-size: 100%;
+  }
+
+  .modal-body .contact-form {
+    padding-top: 15%;
+  }
+  
+  .modal-body .contact-form .btn {
+    width: 100%;
+  }
+  .modal-body .lable__modal {
+    color: #FFF;
+  }
+  
+  .modal-body .contacts__text {
+    color: #FFF;
+  }
+
+}
+
+@media screen and (666px <= width < 768px) {
+  /* * {
+        border: 1px solid #f00;
+     } */
+
+  body {
+    overflow-x: hidden;
+    padding-top: 15px;
+  }
+
+  h1 {
+    font-size: 300%;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 120%;
+
+  }
+
+  .main,
+  .who,
+  .why,
+  .consultation,
+  .program,
+  .req,
+  .lector,
+  .resume,
+  .prices,
+  .questions,
+  .reviews,
+  .contact,
+  .main__price,
+  .query {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .nav {
+    margin-bottom: 5%;
+  }
+  
+  .nav__mail__tg {
+  
+    text-align: right;
+    padding-right: 0;
+  }
+
+  .nav .col-5 {
+    width: 66%;
+  }
+
+  .nav__logo {
+    padding-right: 0;
+    width: 37%;
+  }
+  
+  .logo__dvfu {
+    width: 20%;
+  }
+  
+  
+  
+  .nav__mail, .nav__btn {
+    display: none;
+  }
+  
+  .telegram {
+    width: 25%;
+  }
+
+  /* .nav */
+  .row__sixe {
+    width: 100%;
+  }
+
+
+  .main__title {
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .main__text {
+    font-size: 120%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 100%;
+  }
+
+  .main__padd {
+    padding-top: 50px;
+  }
+
+  .btn {
+    font-size: 14px;
+    width: 35%;
+    height: 50%;
+  }
+
+  .btn-o {
+    font-size: 12px;
+    height: 42px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .btn__main {
+    width: 50%;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .hero__xs {
+    display: block;
+    margin-left: -10%;
+    background-size: 40%;
+  }
+
+  .main__title2 b {
+    font-size: 100%;
+  }
+
+  .main__start {
+    padding-top: 20%;
+    margin: 0;
+
+  }
+
+  .main__blok {
+    width: 100%;
+  }
+
+  .main__title2 {
+    text-align: center;
+    height: 25%;
+    line-height: 132%;
+    font-size: 12px;
+    padding-top: 0;
+    border-radius: 40px;
+  }
+
+  .main__title2__text {
+    font-size: 200%;
+  }
+
+  .main__title2__title {
+    font-size: 200%;
+  }
+
+  .less {
+    text-align: left;
+  }
+
+  .less h4 {
+    padding-left: 1%;
+  }
+
+  .less .price__money {
+    margin-top: 2%;
+    font-size: 200%;
+    text-align: left;
+    padding-left: 1%;
+  }
+  
+  .diplom {
+    margin-top: max(20%);
+    text-align: center;
+  }
+
+  .main__hero {
+    padding-bottom: 7%;
+  }
+
+  .online {
+    font-size: 200%;
     text-align: center;
   }
 
@@ -203,6 +821,11 @@
     font-size: 120%;
   }
 
+  .main__price__title {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
   .main__row__padd img {
     max-width: 10%;
     height: auto;
@@ -211,6 +834,7 @@
 
   .main__row__padd {
     padding-top: 10%;
+    padding-left: 50%;
   }
 
   .hand {
@@ -219,6 +843,8 @@
 
   .hand__xs {
     display: inline;
+    background-size: 100%;
+    padding-left: 33%;
   }
 
   /* .main__price */
@@ -271,7 +897,7 @@
   .phone__xs {
     display: inline;
     max-width: 70%;
-    height: 335px;
+    height: 560px;
   }
 
   .blue__line__padd {
@@ -280,7 +906,7 @@
 
   .why-row {
     margin-left: 0;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
   }
 
   .why-row img {
@@ -289,7 +915,7 @@
   }
 
   .why__header {
-    font-size: 75%;
+    font-size: 100%;
     padding-left: 10px;
     text-transform: uppercase;
   }
@@ -313,9 +939,13 @@
   }
 
   .con__padd {
-    padding-top: 0;
+    padding-top: 45%;
     padding-left: 0;
     padding-right: initial;
+  }
+  
+  .con__padd__btn{
+    padding-top: 43%;
   }
 
   .con__btn {
@@ -448,6 +1078,794 @@
   }
 
   /* req */
+
+  .lector {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+  
+  .lector h1 {
+    font-size: 200%;
+  }
+
+  .lectors img {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .lector__text {
+    display: block;
+    text-align: center;
+  }
+
+  .lector__title {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10%;
+  }
+
+  /*lectors*/
+
+
+  .hero__2 {
+    display: none;
+
+  }
+
+  .hero__2__small {
+    display: block;
+    background-size: contain;
+  }
+
+  .resume__con {
+    padding-top: 0;
+  }
+
+  .resume__con h1 {
+    text-align: center;
+  }
+
+
+  .resume {
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .resume__padd {
+    padding-top: 0;
+  }
+
+  .resume__resume {
+    font-size: 17px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .resume__text {
+    font-size: 17px;
+    text-align: left;
+  }
+
+
+  /*resume*/
+
+  .prices h1 {
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .price__form {
+    font-size: 100%;
+    width: 80%;
+    height: 400px;
+  }
+
+  .prices .btn-o {
+    font-size: 100%;
+    width: 300px;
+  }
+
+  .price__line {
+    background-size: 100% 45%;
+    width: 100%;
+  }
+
+  .price__form p, .price__form ul {
+    font-size: 100%;
+  }
+
+  /*price*/
+
+  .query {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .questions__1 h1 {
+    text-align: center;
+    font-size: 200%;
+  }
+
+  .collaps__questions__border {
+    padding-left: 2%;
+  }
+
+  .query__padd{
+  margin: auto;
+  }
+
+  .questions__1 {
+    padding-bottom: 20px;
+  }
+
+  .questions__text {
+    font-size: 100%;
+  }
+
+  .questions__border {
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+  }
+
+  .arrow-down {
+    width: 30px;
+  }
+  
+
+  /*query*/
+
+  .reviews {
+    text-align: center;
+  }
+
+  .reviews h1 {
+    font-size: 200%;
+  }
+
+  .carousel {
+    padding-top: 0;
+  }
+
+  .carousel__list {
+    width: 90%;
+    height: 100%;
+    perspective: 100%;
+  }
+
+  .carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 0px;
+    width: 35vh;
+    height: 25vh;
+    border-radius: 20px;
+  }
+
+  .phone__clear {
+    display: none;
+  }
+
+  /*rewies*/
+
+  .contacts {
+    padding-top: 340px;
+    padding-left: 0;
+    font-size: 50%;
+  }
+
+  .contact h1 {
+    text-align: center;
+    font-size: 500%;
+  }
+
+  .contact-form {
+    padding: 0 15px 0 15px;
+  }
+
+  .contact-form .input-text {
+    height: 0px;
+  }
+
+  .contact-form .label {
+    font-size: 15px;
+  }
+
+  .lock__right {
+    max-width: 40%;
+    height: 142px;
+    background-size: contain;
+  }
+
+  .contact .btn {
+    width: 100%;
+  }
+
+  .contacts__text {
+    padding-top: 0;
+  }
+
+  .text-start {
+    text-align: center !important;
+    font-size: 200%;
+  }
+
+  /*contacts*/
+
+  .end {
+    padding-top: 30%;
+  }
+
+  .end .col-md-7 {
+    text-align: center;
+  }
+
+  .end .nav__padd {
+    padding-right: 40px;
+  }
+
+  .end .logo-CIB {
+    height: 25%;
+    width: 25%;
+  }
+
+  .end .logo-PT {
+    height: 25%;
+    width: 25%;
+  }
+
+  .end .logo-DVFU {
+    height: 25%;
+    width: 15%;
+  }
+
+  .text-end-xs {
+    display: none;
+  }
+
+  .footers {
+    height: 100%;
+    font-size: 92%;
+  }
+
+  .line__foot {
+    display: none;
+  }
+
+  .footers .text-end {
+    text-align: center !important;
+  }
+
+  .footers__title {
+    font-size: 90%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footers__text {
+    font-size: 90%;
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .modal {
+    margin: auto;
+    padding-top: 4%;
+    --bs-modal-margin: 0;
+  }
+  .modal-dialog {
+    width: 90% !important;
+    --bs-modal-width: none;
+    margin: auto;
+  }
+  
+  .modal-content {
+    background-color: #0062C8;
+    border-radius: 60px !important;
+    text-align: center;
+  }
+  
+  .modal-body {
+    padding: 10%;
+  }
+
+  .modal-body h1 {
+    font-size: 7vw;
+  }
+  
+  .modal-body .text-start {
+    font-size: 100%;
+  }
+
+  .modal-body .contact-form {
+    padding-top: 15%;
+  }
+  
+  .modal-body .contact-form .btn {
+    width: 100%;
+  }
+  .modal-body .lable__modal {
+    color: #FFF;
+  }
+  
+  .modal-body .contacts__text {
+    color: #FFF;
+  }
+
+}
+
+@media screen and (500px <= width < 666px) {
+  /* * {
+        border: 1px solid #f00;
+     } */
+
+  body {
+    overflow-x: hidden;
+    padding-top: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 12px;
+
+  }
+
+  .main,
+  .who,
+  .why,
+  .consultation,
+  .program,
+  .req,
+  .lector,
+  .resume,
+  .prices,
+  .questions,
+  .reviews,
+  .contact,
+  .main__price,
+  .query {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .nav {
+    margin-bottom: 5%;
+  }
+  
+  .nav__mail__tg {
+  
+    text-align: right;
+    padding-right: 0;
+  }
+
+  .nav .col-5 {
+    width: 66%;
+  }
+
+  .nav__logo {
+    padding-right: 0;
+    width: 37%;
+  }
+  
+  .logo__dvfu {
+    width: 20%;
+  }
+  
+  
+  
+  .nav__mail, .nav__btn {
+    display: none;
+  }
+  
+  .telegram {
+    width: 25%;
+  }
+
+  /* .nav */
+  .row__sixe {
+    width: 100%;
+  }
+
+
+  .main__title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .main__text {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 100%;
+  }
+
+  .main__padd {
+    padding-top: 50px;
+  }
+
+  .btn {
+    font-size: 14px;
+    width: 35%;
+    height: 50%;
+  }
+
+  .btn-o {
+    font-size: 12px;
+    height: 42px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .btn__main {
+    width: 50%;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .hero__xs {
+    display: block;
+    margin-left: -10%;
+    background-size: 40%;
+  }
+
+  .main__title2 b {
+    font-size: 12px;
+  }
+
+  .main__start {
+    padding-top: 20%;
+    margin: 0;
+
+  }
+
+  .main__blok {
+    width: 100%;
+  }
+
+  .main__title2 {
+    text-align: center;
+    height: 25%;
+    line-height: 132%;
+    font-size: 12px;
+    padding-top: 0;
+    border-radius: 40px;
+  }
+
+  .main__title2__title {
+    font-size: 120%;
+  }
+
+  .less {
+    text-align: left;
+  }
+
+  .less .price__money {
+    margin-top: 2%;
+    font-size: 160%;
+    text-align: left;
+  }
+  
+  .diplom {
+    margin-top: max(20%);
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .main__hero {
+    padding-bottom: 7%;
+  }
+
+  .online {
+    font-size: 150%;
+    text-align: center;
+  }
+
+  /* .main */
+
+  .main__price {
+    margin-top: 15%;
+  }
+
+  .main__price h5 {
+    text-align: center;
+    font-size: 150%;
+    font-family: "Gotham Pro Black", sans-serif;
+  }
+
+  .main__price .offset-2 {
+    margin-left: 0;
+  }
+
+  .price__text {
+    font-size: 120%;
+    padding-bottom: 15px;
+  }
+
+  .price__title {
+    font-size: 120%;
+  }
+
+  .main__row__padd img {
+    max-width: 10%;
+    height: auto;
+    transform: rotate(90deg);
+  }
+
+  .main__row__padd {
+    padding-top: 10%;
+  }
+
+  .hand {
+    display: none;
+  }
+
+  .hand__xs {
+    display: inline;
+  }
+
+  .main__price__title {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .main__row__padd {
+    padding-top: 10%;
+    margin-left: 50%;
+  }
+
+
+  /* .main__price */
+
+  .who h1 {
+    padding-top: 0;
+    text-align: center;
+    font-size: 200%;
+  }
+
+  .for-whom__padd {
+    padding-top: 5%;
+    font-size: 100%;
+  }
+
+  .for-whom__N {
+    width: 70%;
+    font-size: 130%;
+    font-family: "Gotham Pro Black", sans-serif;
+  }
+
+  .whom {
+    display: none;
+  }
+
+  .whom__xs {
+    max-width: 40%;
+    height: 10%;
+    display: inline;
+    background-size: contain;
+  }
+
+  /* who */
+
+
+  .why {
+    padding-top: 50%;
+  }
+
+  .why h1 {
+    padding-left: 0%;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .phone__xs {
+    display: inline;
+    max-width: 70%;
+    height: 335px;
+  }
+
+  .why-row {
+    margin-left: 0;
+    padding-bottom: 10%;
+  }
+
+  .why-row img {
+    max-width: 10%;
+    height: 10%;
+  }
+
+  .why__header {
+    font-size: 75%;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+
+  .why__intro {
+    font-size: 90%;
+    text-transform: uppercase;
+  }
+
+  /* why */
+
+
+  .blue__line {
+    background-size: 100% 70%;
+  }
+
+  .consultation__padd {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .con__btn {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .con__padd {
+    padding-top: 45%;
+    padding-left: 0;
+    padding-right: initial;
+  }
+  
+  .con__padd__btn{
+    padding-top: 0;
+  }
+
+  .con__btn {
+    font-size: 12px;
+    width: 100%;
+  }
+
+
+  /* blue__line */
+
+  .program {
+    padding-top: 20%;
+  }
+
+  .program h1 {
+    text-align: center;
+    font-size: 200%;
+  }
+
+  .program p {
+    font-size: 100%;
+  }
+
+  .program ul {
+    font-size: 90%;
+  }
+
+  .btn-program {
+    width: 100%;
+    font-size: 70%;
+  }
+
+  .program-btn__padd {
+    padding-top: 2%;
+    padding-bottom: 10%;
+  }
+
+  /* program */
+
+  .req h1 {
+    text-align: center;
+    font-size: 200%;
+  }
+
+  .req p {
+    text-align: center;
+    font-size: 100%;
+  }
+
+  .lock__left {
+    max-width: 40%;
+    height: 180px;
+    background-size: contain;
+
+  }
+
+  .req__text {
+    font-size: 16px;
+  }
+
+  .req__title {
+    font-size: 10px;
+    padding-bottom: 10%;
+  }
+
+  .border-w {
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .border-os {
+    width: 50%;
+    height: 100%;
+  }
+
+  .border-hdd {
+    width: 47%;
+    height: 100%;
+  }
+
+  .border-ram {
+    width: 47%;
+    height: 100%;
+  }
+
+  .border-cpu {
+    width: 100%;
+    height: 100%;
+  }
+
+  .border-vm {
+    width: 100%;
+    height: 100%;
+  }
+
+  .border-po {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hdd,
+  .cpu,
+  .tth {
+    padding-bottom: 3%;
+  }
+
+  .hdd,
+  .ram {
+    padding-right: 0;
+    padding-top: 3%;
+  }
+
+  .hdd,
+  .ram {
+    padding-left: 0;
+  }
+
+  .row_ram {
+    display: none;
+  }
+
+  .col_xs {
+    display: inline;
+    padding-bottom: 2%;
+  }
+
+  .row_xs {
+    justify-content: space-around;
+  }
+
+  /* req */
+
+  .lectors .col-3 {
+    width: 100%;
+  }
 
   .lector {
     padding-top: 10%;
@@ -813,41 +2231,36 @@
   }
 
   .nav {
-    height: 60px;
-    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  
+  .nav__mail__tg {
+  
+    text-align: right;
+    padding-right: 0;
+  }
+
+  .nav .col-5 {
+    width: 66%;
   }
 
   .nav__logo {
-    text-align: center;
+    padding-right: 0;
+    width: 37%;
   }
-
-  .nav .logo-PT {
-    max-width: 30%;
-    height: auto;
+  
+  .logo__dvfu {
+    width: 20%;
   }
-
-  .nav .logo-DVFU {
-    max-width: 15%;
-    height: auto;
-  }
-
-  .nav .logo-CIB {
-    max-width: 30%;
-    height: auto;
-  }
-
-  .nav svg {
-    max-width: 40%;
-    height: auto;
-  }
-
-  .nav .nav__padd {
-    padding-right: 10%;
-  }
-
-  .nav #nav__btn,
-  .nav #nav__mail {
+  
+  
+  
+  .nav__mail, .nav__btn {
     display: none;
+  }
+  
+  .telegram {
+    width: 25%;
   }
 
   /* .nav */
@@ -960,6 +2373,11 @@
     font-size: 12px;
   }
 
+  .main__price__title {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
   .main__row__padd img {
     max-width: 10%;
     height: auto;
@@ -968,6 +2386,7 @@
 
   .main__row__padd {
     padding-top: 10%;
+    margin-left: 50%;
   }
 
   .hand {
@@ -979,6 +2398,10 @@
   }
 
   /* .main__price */
+
+  .main__for-whom {
+    margin-top: 10%;
+  }
 
   .who h1 {
     text-align: center;
@@ -1065,9 +2488,13 @@
   }
 
   .con__padd {
-    padding-top: 0;
+    padding-top: 70%;
     padding-left: 0;
     padding-right: initial;
+  }
+  
+  .con__padd__btn{
+    padding-top: 0;
   }
 
   .con__btn {
@@ -1096,7 +2523,8 @@
 
   .btn-program {
     width: 100%;
-    font-size: 70%;
+    font-size: 64%;
+    height: 20px;
   }
 
   .program-btn__padd {
@@ -1199,6 +2627,10 @@
   }
 
   /* req */
+
+  .lectors .col-3 {
+    width: 100%;
+  }
 
   .lector {
     padding-top: 10%;
@@ -1413,12 +2845,12 @@
 
   .end .logo-CIB {
     height: 25%;
-    width: 25%;
+    width: 24%;
   }
 
   .end .logo-PT {
     height: 25%;
-    width: 25%;
+    width: 23%;
   }
 
   .end .logo-DVFU {

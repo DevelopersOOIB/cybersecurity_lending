@@ -18,39 +18,47 @@
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "Gotham Pro Light", sans-serif;
   background: #161616;
   color: #fff;
-  max-width: 1920px;    
+  max-width: 1440px;    
   padding-top: 57px;
   margin: 0 auto;
   position: relative;
 }
 
 .nav {
-  height: 171px;
+  margin-bottom: 5%;
 }
 
-.nav__padd {
+.nav__logo {
   padding-right: 60px;
 }
 
+.logo__dvfu {
+  width: 15%;
+}
+
+.nav__telegram__xs {
+  display: none;
+}
+
+.nav__mail__tg {
+
+  text-align: right;
+  padding-right: 10%;
+}
+
 .nav__mail {
-  padding-left: 75px;
-  padding-right: 40px;
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 25px;
+  padding-right: 10%;
 }
 
-.main, .who, .why, .consultation, .program, .req, .lector, .resume, .prices, .questions, .reviews, .contact, .main__price {
-  padding-left: 175px;
-  padding-right: 175px;
+.telegram {
+  width: 10%;
 }
-
-.logo-DVFU {
-  width: 80px;
-  height: 50px;
-}
-
 
 .why {
   padding-top: 300px;
@@ -64,6 +72,11 @@ body {
   font-weight: bold;
   font-size: 55px;
   text-transform: uppercase;
+}
+
+.main__price__title {
+  margin-left: 25%;
+  margin-top: 5%;
 }
 
 .why h1 {
@@ -205,8 +218,8 @@ h2, h3, h4, h5, h6 {
   background: url("../img/hero_test.png") no-repeat right top;
   position: absolute;
   background-size: 50%;
-  width: 1600px;
-  height: 1376px; 
+  width: 1380px;
+  height: 625px; 
 }
 
 .hero__xs {
@@ -225,9 +238,10 @@ h2, h3, h4, h5, h6 {
 .hand {
   background: url("../img/hand.png") no-repeat right top;
   position: absolute;
-  width: 354px;
-  height: 364px;
+  width: 290px;
+  height: 366px;
   left: 0;
+  background-size: 100%;
 }
 
 .hand__xs {
@@ -242,7 +256,7 @@ h2, h3, h4, h5, h6 {
 
 .price__text {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 35px;
 }
 
@@ -252,8 +266,12 @@ h2, h3, h4, h5, h6 {
 }
 
 .main__row__padd {
-  padding-top: 100px;
-  padding-left: 200px;
+  padding-top: 10%;
+  margin: auto;
+}
+
+.main__row__padd img {
+  width: 70%;
 }
 
 /* .price__arrow__padd {
@@ -297,6 +315,7 @@ h2, h3, h4, h5, h6 {
   width: 831px;
   height: 937px;
   left: 0;
+  background-size: 90%;
 }
 
 .phone__xs {
@@ -338,14 +357,17 @@ h2, h3, h4, h5, h6 {
 }
 
 .consultation__padd {
-  padding-top: 250px;
   font-size: 50px;
   font-weight: bold;
 }
 
 .con__padd {
-  padding-top: 280px;
-  padding-left: 100px;
+  padding-top: 233px;
+  margin: auto;
+}
+
+.con__padd__btn{
+  padding-top: 233px;
 }
 
 .con__btn {
@@ -459,12 +481,18 @@ h2, h3, h4, h5, h6 {
   padding-left: 15px;
 }
 
-.lector {
-  padding-top: 160px;
+/* .lector {
+  padding-top: 130px;
   padding-bottom: 120px;
 }
 
+.lectors img {
+  width: 60%;
+}
 
+.lectors__img {
+  margin: auto;
+}
 .lector__text {
   font-family: "Gotham Pro Black", sans-serif;
   font-weight: bold;
@@ -474,14 +502,14 @@ h2, h3, h4, h5, h6 {
 
 .lector__title {
   font-family: "Gotham Pro Light", sans-serif;
-  font-size: 20px;
-}
+  font-size: 15px; 
+}*/
 
 .hero__2 {
   background: url('../img/hero2.png') no-repeat left top;
-  width: 640px;
-  height: 701px;
-  left: 0;
+  width: 576px;
+  height: 630px;
+  background-size: 100%;
 }
 
 .hero__2__small {
@@ -559,7 +587,7 @@ h2, h3, h4, h5, h6 {
   padding-top: 100px;
   background: url("../img/price__line.png") no-repeat;
   position: absolute;
-  width: 1870px;
+  width: 1440px;
   height: 1080px;
   left: 0;
 }
@@ -572,6 +600,10 @@ h2, h3, h4, h5, h6 {
 
 .query__padd{
   padding-bottom: 25px;
+}
+
+.questions {
+  padding-left: 2%;
 }
 
 .questions__1{
@@ -615,8 +647,9 @@ h2, h3, h4, h5, h6 {
 .phone__clear {
   background: url("../img/phone_clear.png") no-repeat left top;
   position: absolute;
-  width: 831px;
-  height: 937px;
+  width: 574px;
+  height: 706px;
+  background-size: 100%;
 }
 .phone__clear__xs {
   display: none;
@@ -787,6 +820,7 @@ h2, h3, h4, h5, h6 {
   background-color: #656565;
   
 }
+
 
 .footers a {  
   color: #FFF;
