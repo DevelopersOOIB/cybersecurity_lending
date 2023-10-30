@@ -1,6 +1,6 @@
 @media screen and (min-width: 1920px) {}
 
-@media screen and (1000px <= width < 1440px) {
+@media screen and (1000px <= width < 1600px) {
   /* * {
         border: 1px solid #f00;
      } */
@@ -78,7 +78,7 @@
   }
 
   .hero {
-    width: 962px;
+    max-width: 95%;
   }
 
 
@@ -241,185 +241,80 @@
 
   /*price*/
 
-  /* .query {
-    padding-top: 10%;
-    padding-bottom: 10%;
-  } */
-
-  /* .questions__1 h1 {
-    text-align: center;
-    font-size: 200%;
-  } */
-
-  /* .collaps__questions__border {
-    padding-left: 2%;
-  } */
-
-  /* .query__padd{
-  margin: auto;
-  } */
-
-  /* .questions__1 {
-    padding-bottom: 20px;
-  } */
-
-  /* .questions__border {
-    border-radius: 20px;
-    padding: 10px 0 10px 0;
-  } */
-
-  /* .arrow-down {
-    width: 30px;
-  } */
-  
+  .query__padd{
+  margin: 0 2%;
+  }  
 
   /*query*/
 
-  /* .reviews .justify-content-end {
-    justify-content: center !important;
-  } */
+  .lock__right {
+    background-size: 80%;
+  }
 
-  /* .carousel__item {
-    width: 41vh;
-    margin-top: 26%;
-  } */
-
-  /* .phone__clear {
-    background-size: 40%;
-    width: 620px;
-    height: 830px;
-  } */
-
-  /*rewies*/
-
-  /* .contact h1 {
-    text-align: center;
-    font-size: 275%;
-  } */
-
-  /* .lock__right {
-    background-size: 60%;
-  } */
-
-  /* .contact .btn {
+  .contact .btn {
     width: 100%;
-  } */
+  }
+  
+  .btn__footers__padd {
+    width: 100%;
+  }
 
-  /* .contacts__text {
-    padding-top: 0;
-  } */
-
-  /* .text-start {
-    text-align: center !important;
-    font-size: 100%;
-  } */
-
-  /*contacts*/
-
-  /* .end {
-    padding-top: 10%;
-  } */
-
-  /* .end .col-md-7 {
-    text-align: center;
-  } */
-
-
-  /* .end .logo-CIB {
-    height: 25%;
-    width: 25%;
-  } */
-
-  /* .end .logo-PT {
-    height: 25%;
-    width: 25%;
-  } */
-
-  /* .end .logo-DVFU {
-    height: 25%;
-    width: 15%;
-  } */
-
-  /* .text-end {
+  .text-end {
     font-size: 70%;
-  } */
-
-  /* .text-end-xs .offset-4 {
-    margin-left: 0;
-    text-align:  left !important;
-    width: 35%;
-  } */
-
-  /* .text-end-xs .col-md-3 {
-    margin: auto;
-    font-size: 60%;
-  } */
-
-  /* .text-end-xs .col-md-2 {
-    margin: auto;
-    font-size: 47%;
-  } */
+  }
 
   /* end */
 
-  /* .footers__title {
-    font-size: 90%;
-    width: 100%;
-    text-align: center;
-  } */
-
-  /* .footers__text {
-    font-size: 100%;
-    padding-top: 2%;
-    width: 100%;
-    text-align: center;
-  } */
-
   /* footers */
+
+
+  .modal-body .btn {
+    width: 100%;
+  }
 
   /* .modal {
     margin: auto;
     padding-top: 4%;
     --bs-modal-margin: 0;
-  } */
+  }
 
-  /* .modal-dialog {
+  .modal-dialog {
     width: 90% !important;
     --bs-modal-width: none;
     margin: auto;
-  } */
+  }
   
-  /* .modal-content {
+  .modal-content {
     background-color: #0062C8;
     border-radius: 60px !important;
     text-align: center;
-  } */
+  }
   
-  /* .modal-body {
+  .modal-body {
     padding: 10%;
-  } */
+  }
 
-  /* .modal-body h1 {
+  .modal-body h1 {
     font-size: 7vw;
-  } */
+  }
   
-  /* .modal-body .text-start {
+  .modal-body .text-start {
     font-size: 100%;
-  } */
+  }
 
-  /* .modal-body .contact-form {
+  .modal-body .contact-form {
     padding-top: 15%;
-  } */
+  }
   
-  /* .modal-body .contact-form .btn {
+  .modal-body .contact-form .btn {
     width: 100%;
-  } */
+  }
 
-  /* .modal-body .lable__modal {
+  .modal-body .lable__modal {
     color: #FFF;
-  } */
+  }
   
-  /* .modal-body .contacts__text {
+  .modal-body .contacts__text {
     color: #FFF;
   } */
 
