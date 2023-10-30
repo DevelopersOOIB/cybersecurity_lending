@@ -713,22 +713,27 @@
     justify-content: center !important;
   }
 
-  .carousel__item {
-    width: 41vh;
-    margin-top: 26%;
+  /* курусель */
+
+  .review__text p {
+    margin-top: 5%;
+    font-size: 20px;
+    border-radius: 30px;
   }
 
   .phone__clear {
-    background-size: 40%;
-    width: 620px;
-    height: 830px;
+    width: 50%;
   }
-
   /*rewies*/
 
-  .contact h1 {
-    text-align: center;
-    font-size: 275%;
+  .contacts {
+    padding-top: 10%;
+    padding-left: 0;
+    font-size: 50%;
+  }
+
+  .contact h1{
+    font-size: 40px;
   }
 
   .lock__right {
@@ -1468,25 +1473,14 @@
     font-size: 200%;
   }
 
-  .carousel {
-    padding-top: 0;
+  .review__text{
+    margin: auto;
   }
 
-  .carousel__list {
-    width: 90%;
-    height: 100%;
-    perspective: 100%;
-  }
-
-  .carousel__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 35vh;
-    height: 25vh;
-    border-radius: 20px;
+  .review__text p {
+    margin-top: 5%;
+    font-size: 20px;
+    border-radius: 30px;
   }
 
   .phone__clear {
@@ -1496,7 +1490,7 @@
   /*rewies*/
 
   .contacts {
-    padding-top: 340px;
+    padding-top: 10%;
     padding-left: 0;
     font-size: 50%;
   }
@@ -2256,25 +2250,14 @@
     font-size: 200%;
   }
 
-  .carousel {
-    padding-top: 0;
+  .review__text{
+    margin: auto;
   }
 
-  .carousel__list {
-    width: 90%;
-    height: 100%;
-    perspective: 100%;
-  }
-
-  .carousel__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 35vh;
-    height: 25vh;
-    border-radius: 20px;
+  .review__text p {
+    margin-top: 5%;
+    font-size: 20px;
+    border-radius: 30px;
   }
 
   .phone__clear {
@@ -2284,7 +2267,7 @@
   /*rewies*/
 
   .contacts {
-    padding-top: 340px;
+    padding-top: 10%;
     padding-left: 0;
     font-size: 50%;
   }
@@ -3002,26 +2985,18 @@
     text-align: center;
   }
 
-  .carousel {
-    padding-top: 0;
+  /* карусель */
+
+  .review__text{
+    margin: auto;
   }
 
-  .carousel__list {
-    width: 90%;
-    height: 100%;
-    perspective: 100%;
+  .review__text p {
+    margin-top: 5%;
+    font-size: 15px;
+    border-radius: 30px;
   }
-
-  .carousel__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 180px;
-    height: 300px;
-    border-radius: 20px;
-  }
+  /* карусель */
 
   .phone__clear {
     display: none;
@@ -3036,7 +3011,7 @@
   /*rewies*/
 
   .contacts {
-    padding-top: 340px;
+    padding-top: 10%;
     padding-left: 0;
     font-size: 50%;
   }
