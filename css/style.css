@@ -414,8 +414,8 @@ h2, h3, h4, h5, h6 {
 .lock__left {
   background: url("../img/locks__left.png") no-repeat left top;
   position: absolute;
-  width: 440px;
-  height: 527px;
+  width: 380px;
+  height: 250px;
   background-size: contain;
 }
 
@@ -481,11 +481,11 @@ h2, h3, h4, h5, h6 {
   padding-left: 15px;
 }
 
-/* .lector {
+ .lector {
   padding-top: 130px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
-
+/*
 .lectors img {
   width: 60%;
 }
@@ -507,7 +507,7 @@ h2, h3, h4, h5, h6 {
 
 .hero__2 {
   background: url('../img/hero2.png') no-repeat left top;
-  width: 576px;
+  width: 424px;
   height: 630px;
   background-size: 100%;
 }
