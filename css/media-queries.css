@@ -152,26 +152,8 @@
   }
   /* why */
 
-
-  .blue__line {
-    background-size: 100% 100%;
-  }
-
-  .consultation__padd {
-    font-size: 120%;
-    text-align: center;
-    font-weight: bold;
-    margin: auto;
-  }
-
   .con__btn {
-    font-size: 100%;
     width: 100%;
-  }
-
-  .con__padd__btn {
-    padding-top: 28%;
-    margin-bottom: 7%;
   }
 
   /* blue__line */
