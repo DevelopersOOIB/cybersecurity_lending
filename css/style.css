@@ -695,9 +695,15 @@ h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #FFF;
 }
+
 .contact-form .input-text:focus {
   outline: none;
 }
+
+.contact-form .input-text:placeholder-shown + .label {
+  display: none;
+}
+
 .contact-form .input-text:focus + .label,
 .contact-form .input-text.not-empty + .label {
   display: none;
