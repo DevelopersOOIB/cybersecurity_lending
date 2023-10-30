@@ -1,15 +1,7 @@
 @media screen and (min-width: 1920px) {}
 
 @media screen and (1000px <= width < 1600px) {
-  /* * {
-        border: 1px solid #f00;
-     } */
-
-  body {
-    /* overflow-x: hidden; */
-    /* padding-top: 15px; */
-  }
-
+  
   h1 {
     font-size: 40px;
   }
@@ -254,61 +246,11 @@
     width: 100%;
   }
 
-  /* .modal {
-    margin: auto;
-    padding-top: 4%;
-    --bs-modal-margin: 0;
-  }
-
-  .modal-dialog {
-    width: 90% !important;
-    --bs-modal-width: none;
-    margin: auto;
-  }
-  
-  .modal-content {
-    background-color: #0062C8;
-    border-radius: 60px !important;
-    text-align: center;
-  }
-  
-  .modal-body {
-    padding: 10%;
-  }
-
-  .modal-body h1 {
-    font-size: 7vw;
-  }
-  
-  .modal-body .text-start {
-    font-size: 100%;
-  }
-
-  .modal-body .contact-form {
-    padding-top: 15%;
-  }
-  
-  .modal-body .contact-form .btn {
-    width: 100%;
-  }
-
-  .modal-body .lable__modal {
-    color: #FFF;
-  }
-  
-  .modal-body .contacts__text {
-    color: #FFF;
-  } */
-
 }
 
 @media screen and (768px <= width < 1000px) {
-  /* * {
-        border: 1px solid #f00;
-     } */
 
   body {
-    /* overflow-x: hidden; */
     padding-top: 15px;
   }
 
