@@ -415,7 +415,7 @@
   }
   
   .diplom {
-    margin-top: max(20%);
+    margin-top: 10%;
     text-align: center;
   }
 
@@ -1033,7 +1033,7 @@
   }
   
   .diplom {
-    margin-top: max(20%);
+    margin-top: 10%;
     text-align: center;
   }
 
@@ -1406,7 +1406,7 @@
   }
 
   .price__form {
-    font-size: 100%;
+    font-size: 80%;
     width: 80%;
     height: 400px;
   }
@@ -1798,7 +1798,6 @@
   }
   
   .diplom {
-    margin-top: max(20%);
     font-size: 100%;
     text-align: center;
   }
@@ -2183,7 +2182,7 @@
   }
 
   .price__form {
-    font-size: 100%;
+    font-size: 80%;
     width: 80%;
     height: 400px;
   }
@@ -2928,7 +2927,7 @@
   }
 
   .price__form {
-    font-size: 100%;
+    font-size: 80%;
     width: 100%;
     height: 400px;
   }

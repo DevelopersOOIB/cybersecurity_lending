@@ -545,8 +545,8 @@ h2, h3, h4, h5, h6 {
 
 
 .price__money {
-  text-align: center;
-  padding-bottom: 30px;
+  /* text-align: center;
+  padding-bottom: 30px; */
 }
 
 .price__pay {
@@ -752,6 +752,9 @@ h2, h3, h4, h5, h6 {
   
 }
 
+.summ {
+  text-align: center;
+}
 
 .footers a {  
   color: #FFF;
