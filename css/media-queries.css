@@ -1505,7 +1505,7 @@
   }
 
   .contact-form .input-text {
-    height: 0px;
+    height: 100%;
   }
 
   .contact-form .label {
@@ -2282,7 +2282,7 @@
   }
 
   .contact-form .input-text {
-    height: 0px;
+    height: 100%;
   }
 
   .contact-form .label {
@@ -3025,7 +3025,7 @@
   }
 
   .contact-form .input-text {
-    height: 0px;
+    height: 100%;
   }
 
   .contact-form .label {
