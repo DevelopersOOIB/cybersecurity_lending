@@ -535,18 +535,51 @@ h2, h3, h4, h5, h6 {
   font-size: 25px;
   background: #0062C8;
   display: flex;
-  width: 792px;
-  height: 651px;
+  width: 50%;
+  height: 50%;
   justify-content: center;
   align-items: center;
   border-radius: 50px;  
   text-transform: uppercase;
+  padding: 5%;
 }
 
 
 .price__money {
   /* text-align: center;
   padding-bottom: 30px; */
+}
+.strike-through1::before {
+  content: "";
+  width: 20%;
+  height: 0.2em;
+  background: #db7d76;
+  position: absolute;
+  left: 14%;
+  transform: rotate(-3deg);
+  margin-top: 1%;
+}
+
+.strike-through2::before {
+  content: "";
+  width: 40%;
+  height: 0.2em;
+  background: #db7d76;
+  position: absolute;
+  left: 30%;
+  transform: rotate(-3deg);
+  margin-top: 2%;
+}
+
+.discountedPrice {
+  font-family: "Gotham Pro Black", sans-serif;
+  font-size: 60px;
+}
+
+.discountedDate {
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 25px;
+  margin-bottom: 5%;
 }
 
 .price__pay {

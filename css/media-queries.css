@@ -2,6 +2,37 @@
 
 @media screen and (1000px <= width < 1600px) {
   
+  .strike-through1::before {
+    content: "";
+    width: 25%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 11%;
+    transform: rotate(-3deg);
+    margin-top: 1%;
+  }
+  
+  .strike-through2::before {
+    content: "";
+    width: 38%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 32%;
+    transform: rotate(-3deg);
+  }
+  
+  .discountedPrice {
+    font-family: "Gotham Pro Black", sans-serif;
+    font-size: 40px;
+  }
+  
+  .discountedDate {
+    font-family: "Gotham Pro Light", sans-serif;
+    margin-bottom: 5%;
+  }
+
   h1 {
     font-size: 40px;
   }
@@ -254,8 +285,41 @@
     padding-top: 15px;
   }
 
+  
+
   h1 {
     font-size: 300%;
+  }
+
+  .strike-through1::before {
+    content: "";
+    width: 34%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 1%;
+    transform: rotate(-3deg);
+    margin-top: 2%;
+  }
+  
+  .strike-through2::before {
+    content: "";
+    width: 60%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 20%;
+    transform: rotate(-3deg);
+  }
+  
+  .discountedPrice {
+    font-family: "Gotham Pro Black", sans-serif;
+    font-size: 200%;
+  }
+  
+  .discountedDate {
+    font-family: "Gotham Pro Light", sans-serif;
+    margin-bottom: 5%;
   }
 
   h2,
@@ -870,6 +934,39 @@
   body {
     overflow-x: hidden;
     padding-top: 15px;
+  }
+
+  .strike-through1::before {
+    content: "";
+    width: 40%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 1%;
+    transform: rotate(-3deg);
+    margin-top: 3%;
+  }
+  
+  .strike-through2::before {
+    content: "";
+    width: 40%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 28%;
+    transform: rotate(-3deg);
+    margin-top: 2%;
+  }
+  
+  .discountedPrice {
+    font-family: "Gotham Pro Black", sans-serif;
+    font-size: 200%;
+  }
+  
+  .discountedDate {
+    font-family: "Gotham Pro Light", sans-serif;
+    font-size: 150%;
+    margin-bottom: 5%;
   }
 
   h1 {
@@ -2201,6 +2298,39 @@
     font-size: 100%;
   }
 
+  .strike-through1::before {
+    content: "";
+    width: 44%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 4%;
+    transform: rotate(-3deg);
+    margin-top: 3%;
+  }
+  
+  .strike-through2::before {
+    content: "";
+    width: 40%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 28%;
+    transform: rotate(-3deg);
+    margin-top: 2%;
+  }
+  
+  .discountedPrice {
+    font-family: "Gotham Pro Black", sans-serif;
+    font-size: 200%;
+  }
+  
+  .discountedDate {
+    font-family: "Gotham Pro Light", sans-serif;
+    font-size: 150%;
+    margin-bottom: 5%;
+  }
+
   /*price*/
 
   .query {
@@ -2942,6 +3072,38 @@
     width: 100%;
   }
 
+  .strike-through1::before {
+    content: "";
+    width: 72%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 11%;
+    transform: rotate(-3deg);
+    margin-top: 5%;
+  }
+  
+  .strike-through2::before {
+    content: "";
+    width: 65%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    left: 15%;
+    transform: rotate(-3deg);
+    margin-top: 4%;
+  }
+  
+  .discountedPrice {
+    font-family: "Gotham Pro Black", sans-serif;
+    font-size: 200%;
+  }
+  
+  .discountedDate {
+    font-family: "Gotham Pro Light", sans-serif;
+    font-size: 150%;
+    margin-bottom: 5%;
+  }
   /*price*/
 
   .query {
