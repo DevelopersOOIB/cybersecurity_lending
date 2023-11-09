@@ -1,7 +1,7 @@
 let priceMoneys = "80 000 рублей";
 let discountedPrice = "64 000 рублей";
-let discountedDate = "до 07.11.2023";
-let discountedEndDate = new Date("2023-11-07");
+let discountedDate = "до 30.11.2023";
+let discountedEndDate = new Date("2023-11-30");
 
 let curentDate = new Date();
 
