@@ -3116,9 +3116,9 @@
   }
 
 
-  /* .query__padd{
-    padding-bottom: 25px;
-    } */
+  .query__padd{
+    margin: 0;
+    }
 
   .questions__1 {
     padding-bottom: 20px;
@@ -3130,7 +3130,7 @@
 
   .questions__border {
     border-radius: 20px;
-    padding: 10px 0 10px 0;
+    padding: 13px 0 13px 0;
   }
 
   .arrow-down {
