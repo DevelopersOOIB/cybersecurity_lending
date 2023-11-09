@@ -1697,11 +1697,16 @@
     --bs-modal-width: none;
     margin: auto;
   }
+
+  .modal-text {
+    font-size: 150%;
+  }
   
   .modal-content {
     background-color: #0062C8;
     border-radius: 60px !important;
     text-align: center;
+    margin: 5%;
   }
   
   .modal-body {
@@ -2507,10 +2512,15 @@
     margin: auto;
   }
   
+  .modal-text {
+    font-size: 150%;
+  }
+
   .modal-content {
     background-color: #0062C8;
     border-radius: 60px !important;
     text-align: center;
+    margin: 5%;
   }
   
   .modal-body {
@@ -3271,6 +3281,11 @@
     padding-top: 4%;
     --bs-modal-margin: 0;
   }
+
+  .modal-text {
+    font-size: 150%;
+  }
+
   .modal-dialog {
     width: 100% !important;
     --bs-modal-width: none;
@@ -3280,6 +3295,7 @@
     background-color: #0062C8;
     border-radius: 60px !important;
     text-align: center;
+    margin: 5%;
   }
   
   .modal-body {
