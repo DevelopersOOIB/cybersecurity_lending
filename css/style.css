@@ -61,7 +61,7 @@ body {
 }
 
 .why {
-  padding-top: 300px;
+  padding-top: 140px;
 }
 
 .main__price {
@@ -122,7 +122,7 @@ h2, h3, h4, h5, h6 {
 
 .main__title2 {  
   background-color: #383838;
-  width: 100%;
+  width: 85%;
   height: 120px;
   border-radius: 60px;
   font-size: 25px;
@@ -200,7 +200,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .btn__main {  
-  width: 100%;
+  width: 85%;
   height: 68px;  
 }
 
@@ -216,6 +216,11 @@ h2, h3, h4, h5, h6 {
 .btn-o:hover {
   border-color: #FFF;
   border-width: 2px;  
+  background-color: #0061c800;  
+}
+
+.row__padd {
+  width: 85%;
 }
 
 .price__btn {
@@ -241,7 +246,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .main__hero {
-  padding-bottom: 140px;
+  padding-bottom: 30px;
 }
 
 .hand {
@@ -515,7 +520,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .resume {
-  padding-bottom: 240px;
+  padding-bottom: 80px;
 }
 
 .resume__padd {
@@ -557,8 +562,9 @@ h2, h3, h4, h5, h6 {
 .price__money {
   /* text-align: center;
   padding-bottom: 30px; */
+  margin-bottom: 0;
 }
-.strike-through1::before {
+/* .strike-through1::before {
   content: "";
   width: 20%;
   height: 0.2em;
@@ -578,7 +584,7 @@ h2, h3, h4, h5, h6 {
   left: 30%;
   transform: rotate(-3deg);
   margin-top: 2%;
-}
+} */
 
 .discountedPrice {
   font-family: "Gotham Pro Black", sans-serif;
@@ -589,6 +595,10 @@ h2, h3, h4, h5, h6 {
   font-family: "Gotham Pro Light", sans-serif;
   font-size: 25px;
   margin-bottom: 5%;
+}
+
+.discountedDate__padd {
+  margin-bottom: 15%;
 }
 
 .price__pay {

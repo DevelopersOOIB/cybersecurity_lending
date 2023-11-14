@@ -2,26 +2,7 @@
 
 @media screen and (1000px <= width < 1600px) {
   
-  .strike-through1::before {
-    content: "";
-    width: 25%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 11%;
-    transform: rotate(-3deg);
-    margin-top: 1%;
-  }
   
-  .strike-through2::before {
-    content: "";
-    width: 38%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 32%;
-    transform: rotate(-3deg);
-  }
   
   .discountedPrice {
     font-family: "Gotham Pro Black", sans-serif;
@@ -280,38 +261,29 @@
 }
 
 @media screen and (768px <= width < 1000px) {
-
+  /* * {
+    border: 1px solid #f00;
+ } */
   body {
     padding-top: 15px;
   }
 
-  
+  .main__title2 {
+    width: 100%;
+  }
 
   h1 {
     font-size: 300%;
   }
 
-  .strike-through1::before {
-    content: "";
-    width: 34%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 1%;
-    transform: rotate(-3deg);
-    margin-top: 2%;
+  .row__padd {
+    width: auto;
   }
   
-  .strike-through2::before {
-    content: "";
-    width: 60%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 20%;
-    transform: rotate(-3deg);
+  .contact-form .form-field {
+    margin: 10px 0;
   }
-  
+
   .discountedPrice {
     font-family: "Gotham Pro Black", sans-serif;
     font-size: 200%;
@@ -479,8 +451,8 @@
   }
   
   .diplom {
-    margin-top: 10%;
-    text-align: center;
+    margin-top: 3%;
+    font-size: 100%;
   }
 
   .main__hero {
@@ -488,8 +460,7 @@
   }
 
   .online {
-    font-size: 200%;
-    text-align: center;
+    font-size: 150%;
   }
 
   /* .main */
@@ -517,7 +488,14 @@
   /* .main__price */
 
   .whom {
+    display: none;
     background-size: 60%;
+  }
+  .whom__xs {
+    max-width: 40%;
+    height: 10%;
+    display: inline;
+    background-size: contain;
   }
 
   .for-whom__padd .col-md-4, .for-whom__padd .col-md-6, .for-whom__padd .col-md-7  {
@@ -528,7 +506,7 @@
 
 
   .why {
-    padding-top: 5%;
+    padding-top: 70%;
   }
 
   .why h1 {
@@ -796,6 +774,11 @@
     font-size: 50%;
   }
 
+
+  .contact {
+    margin-left: 5%;
+  }
+
   .contact h1{
     font-size: 40px;
   }
@@ -823,9 +806,9 @@
     padding-top: 10%;
   }
 
-  .end .col-md-7 {
+  /* .end .col-md-7 {
     text-align: center;
-  }
+  } */
 
 
   .end .logo-CIB {
@@ -936,26 +919,8 @@
     padding-top: 15px;
   }
 
-  .strike-through1::before {
-    content: "";
-    width: 40%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 1%;
-    transform: rotate(-3deg);
-    margin-top: 3%;
-  }
-  
-  .strike-through2::before {
-    content: "";
-    width: 40%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 28%;
-    transform: rotate(-3deg);
-    margin-top: 2%;
+  .row__padd {
+    width: auto;
   }
   
   .discountedPrice {
@@ -2303,27 +2268,7 @@
     font-size: 100%;
   }
 
-  .strike-through1::before {
-    content: "";
-    width: 44%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 4%;
-    transform: rotate(-3deg);
-    margin-top: 3%;
-  }
   
-  .strike-through2::before {
-    content: "";
-    width: 40%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 28%;
-    transform: rotate(-3deg);
-    margin-top: 2%;
-  }
   
   .discountedPrice {
     font-family: "Gotham Pro Black", sans-serif;
@@ -2550,6 +2495,10 @@
     color: #FFF;
   }
 
+  .row__padd {
+    width: auto;
+  }
+
 }
 
 @media screen and (max-width: 499.99px) {
@@ -2561,6 +2510,10 @@
   body {
     /* overflow-x: hidden; */
     padding-top: 15px;
+  }
+
+  .main__title2 {
+    width: 100%;
   }
 
   h1 {
@@ -2867,6 +2820,9 @@
   }
 
 
+  .row__padd {
+    width: auto;
+  }
   /* blue__line */
 
   .program {
@@ -3082,27 +3038,6 @@
     width: 100%;
   }
 
-  .strike-through1::before {
-    content: "";
-    width: 72%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 11%;
-    transform: rotate(-3deg);
-    margin-top: 5%;
-  }
-  
-  .strike-through2::before {
-    content: "";
-    width: 65%;
-    height: 0.2em;
-    background: #db7d76;
-    position: absolute;
-    left: 15%;
-    transform: rotate(-3deg);
-    margin-top: 4%;
-  }
   
   .discountedPrice {
     font-family: "Gotham Pro Black", sans-serif;
