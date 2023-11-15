@@ -14,8 +14,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $mail->isSMTP();   
    $mail->Host  = 'smtp.yandex.ru';
    $mail->SMTPAuth  = true; 
-   $mail->Username  = 'mail';
-   $mail->Password  = 'password'; 
+   $mail->Username  = 'dpo-ib@dvfu.ru';
+   $mail->Password  = 'hvgcwivokuwdiomp'; 
    $mail->SMTPSecure = 'ssl';       
    $mail->Port  = 465;              
 
