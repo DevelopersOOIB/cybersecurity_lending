@@ -708,18 +708,18 @@
             <div class="row">
                 <div class="col-md-6 contact">
                     <h1>СВЯЖИСЬ С НАМИ</h1>
-                    <form class="contact-form row" id="form">
+                    <form class="contact-form row" id="form" action="php/mail.php">
                         <div class="form-field col-md-12">
-                            <input type="text" class="input-text" id="name" placeholder="ИМЯ" required>
+                            <input type="text" class="input-text" id="name" placeholder="ИМЯ" name="form__name" required>
                         </div>
                         <div class="form-field col-md-12">
-                            <input id="phone" class="input-text" type="text" placeholder="ТЕЛЕФОН" required>
+                            <input id="phone" class="input-text" type="text" placeholder="ТЕЛЕФОН" name="form__phone" required>
                         </div>
                         <div class="form-field col-md-12">
-                            <input id="email" class="input-text" type="email" placeholder="E-MAIL" required>
+                            <input id="email" class="input-text" type="email" placeholder="E-MAIL" name="form__email" required>
                         </div>
                         <div class="form-field col-md-12">
-                            <input id="promocod" class="input-text" type="text" placeholder="ПРОМОКОД">
+                            <input id="promocod" class="input-text" type="text" placeholder="ПРОМОКОД" name="form__promocod">
                         </div>
                         <div class="form-field col-md-6">
                             <button class="btn btn-o" type="submit" data-bs-toggle="modal" data-bs-target="#Modal1">отправить</button>
@@ -787,18 +787,18 @@
                             <h2 class="modal-text" id="ModalLabel">Оставь свои контактные данные для связи</h2>
                         </div>
                     </div>
-                    <form method="POST" class="contact-form row">
+                    <form method="POST" class="contact-form row" action="php/mail.php" id="form">
                         <div class="form-field col-md-12">
-                            <input type="text" class="input-text" id="name" placeholder="ИМЯ" required>
+                            <input type="text" class="input-text" id="name" placeholder="ИМЯ" name="form__name"  required>
                         </div>
                         <div class="form-field col-md-12">
-                            <input id="phone" class="input-text" type="text" placeholder="ТЕЛЕФОН" required>
+                            <input id="phone" class="input-text" type="text" placeholder="ТЕЛЕФОН" name="form__phone"  required>
                         </div>
                         <div class="form-field col-md-12">
-                            <input id="email" class="input-text" type="email" placeholder="E-MAIL" required>
+                            <input id="email" class="input-text" type="email" placeholder="E-MAIL" name="form__email"  required>
                         </div>
                         <div class="form-field col-md-12">
-                            <input id="promocod" class="input-text" type="text" placeholder="ПРОМОКОД">
+                            <input id="promocod" class="input-text" type="text" placeholder="ПРОМОКОД" name="form__promocod" >
                         </div>
                         <div class="form-field col-md-6">
                             <button class="btn btn-o" type="submit">отправить</button>
@@ -833,7 +833,6 @@
     <script type="text/javascript" src="js/arrow.js"></script>
     <script src="js/price.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/full__program.js"></script>
-    <script type="text/javascript" src="js/contact__form.js"></script>
 </body>
 
 </html>
