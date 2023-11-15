@@ -1,8 +1,7 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
+require '/web/vendor/autoload.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $mail = new PHPMailer();
@@ -20,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $mail->SMTPSecure = 'ssl';       
    $mail->Port  = 465;              
 
-   $mail->setFrom('noreply_dpo-ib@dvfu.ru', 'noreply'); 
+   $mail->setFrom('dpo-ib@dvfu.ru', 'Test'); 
    $mail->addAddress('dpo-ib@dvfu.ru', 'ДПО');
 
    $mail->Subject = 'Заявка на курс Администрирование и безопасность компьютерных систем';
