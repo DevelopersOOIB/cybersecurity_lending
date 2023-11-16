@@ -1,7 +1,8 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
-require '/web/vendor/autoload.php';
+require 'C:/OSPanel/domains/localhost/vendor/autoload.php'; // require __DIR__ . '/../vendor/autoload.php';
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $mail = new PHPMailer();
@@ -11,20 +12,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $email = $_POST['form__email'];
    $promocod = $_POST['form__promocod'];
 
-   $mail->isSMTP();   
-   $mail->Host  = 'smtp.yandex.ru';
+   $mail->isSMTP();
+   $mail->Host  = 'ssl://smtp.yandex.ru';        
+   $mail->Port  = 465;
    $mail->SMTPAuth  = true; 
-   $mail->Username  = 'dpo-ib@dvfu.ru';
-   $mail->Password  = 'tetdrt'; 
-   $mail->SMTPSecure = 'ssl';       
-   $mail->Port  = 465;              
+   $mail->Username  = 'mail';
+   $mail->Password  = 'pass';            
 
-   $mail->setFrom('dpo-ib@dvfu.ru', 'Test'); 
-   $mail->addAddress('dpo-ib@dvfu.ru', 'ДПО');
+   $mail->isHTML(true);
+
+   $mail->setFrom('mail', 'Заявка ASCS');
+   $mail->addAddress('mail', 'ДПО');
 
    $mail->Subject = 'Заявка на курс Администрирование и безопасность компьютерных систем';
-   $mail->Body = '' .$name . '' .$phone . '' .$email . '' .$promocod . '';
-   $mail->AltBody = '';
+   $mail->Body = 'Имя: <b>' .$name . '</b><br>Номер телефона: <b>' .$phone . '</b><br>Почта: <b>' .$email . '</b><br>Промокод: <b>' .$promocod . '</b>';
+   $mail->AltBody = $name . "\n" . $phone . "\n" . $email . "\n" . $promocod;
                
    if ($mail->send()) {
        echo 'success';

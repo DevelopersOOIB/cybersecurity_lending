@@ -229,7 +229,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  background: url("../img/hero_test.png") no-repeat right top;
+  background: url("../img/hero_test.webp") no-repeat right top;
   position: absolute;
   background-size: 50%;
   width: 1380px;
@@ -238,7 +238,7 @@ h2, h3, h4, h5, h6 {
 
 .hero__xs {
   display: none;
-  background: url("../img/hero_test.png") no-repeat right top;
+  background: url("../img/hero_test.webp") no-repeat right top;
   position: absolute;
   background-size: 55%;
   width: 1694px;
@@ -250,7 +250,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .hand {
-  background: url("../img/hand.png") no-repeat right top;
+  background: url("../img/hand.webp") no-repeat right top;
   position: absolute;
   width: 290px;
   height: 366px;
@@ -259,7 +259,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .hand__xs {
-  background: url("../img/hand.png") no-repeat right top;
+  background: url("../img/hand.webp") no-repeat right top;
   position: absolute;
   width: 183px;
   height: 364px;
@@ -293,7 +293,7 @@ h2, h3, h4, h5, h6 {
 } */
 
 .whom {
-  background: url("../img/for__whom.png") no-repeat right top;
+  background: url("../img/for__whom.webp") no-repeat right top;
   position: absolute;
   right: 0;
   width: 543px;
@@ -309,7 +309,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .whom__xs {
-  background: url("../img/for__whom.png") no-repeat right top;
+  background: url("../img/for__whom.webp") no-repeat right top;
   position: absolute;
   right: 0;
   width: 543px;
@@ -324,7 +324,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .phone {
-  background: url("../img/phone.png") no-repeat left top;
+  background: url("../img/phone.webp") no-repeat left top;
   position: absolute;
   width: 831px;
   height: 937px;
@@ -333,7 +333,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .phone__xs {
-  background: url("../img/phone.png") no-repeat left top;
+  background: url("../img/phone.webp") no-repeat left top;
   position: absolute;
   width: 831px;
   height: 937px;
@@ -363,7 +363,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .blue__line {
-  background: url("../img/blue__line.png") no-repeat center center;
+  background: url("../img/blue__line.webp") no-repeat center center;
   position: absolute;
   width: 1920px;
   height: 542px;
@@ -426,7 +426,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .lock__left {
-  background: url("../img/locks__left.png") no-repeat left top;
+  background: url("../img/locks__left.webp") no-repeat left top;
   position: absolute;
   width: 380px;
   height: 250px;
@@ -501,7 +501,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .hero__2 {
-  background: url('../img/hero2.png') no-repeat left top;
+  background: url('../img/hero2.webp') no-repeat left top;
   width: 424px;
   height: 630px;
   background-size: 100%;
@@ -509,7 +509,7 @@ h2, h3, h4, h5, h6 {
 
 .hero__2__small {
   display: none;
-  background: url('../img/hero2.png') no-repeat left top;
+  background: url('../img/hero2.webp') no-repeat left top;
   width: 177px;
   height: 210px;
   left: 0;
@@ -618,7 +618,7 @@ h2, h3, h4, h5, h6 {
 
 .price__line {
   padding-top: 100px;
-  background: url("../img/price__line.png") no-repeat;
+  background: url("../img/price__line.webp") no-repeat;
   position: absolute;
   width: 1440px;
   height: 1080px;
@@ -678,7 +678,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .phone__clear {
-  background: url("../img/phone_clear.png") no-repeat left top;
+  background: url("../img/phone_clear.webp") no-repeat left top;
   position: absolute;
   width: 574px;
   height: 706px;
@@ -686,7 +686,7 @@ h2, h3, h4, h5, h6 {
 }
 .phone__clear__xs {
   display: none;
-  background: url("../img/phone_clear.png") no-repeat left top;
+  background: url("../img/phone_clear.webp") no-repeat left top;
   position: absolute;
   width: 831px;
   height: 937px;
@@ -697,7 +697,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .lock__right {
-  background: url("../img/locks__right.png") no-repeat right top;
+  background: url("../img/locks__right.webp") no-repeat right top;
   position: absolute;
   right: 0;
   width: 537px;
