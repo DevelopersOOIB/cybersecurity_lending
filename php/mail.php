@@ -16,13 +16,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $mail->Host  = 'ssl://smtp.yandex.ru';        
    $mail->Port  = 465;
    $mail->SMTPAuth  = true; 
-   $mail->Username  = 'dpo-ib@dvfu.ru';
-   $mail->Password  = 'yijvxmfndphoknah';            
+   $mail->Username  = 'mail';
+   $mail->Password  = 'pass';            
 
    $mail->isHTML(true);
 
-   $mail->setFrom('dpo-ib@dvfu.ru', 'Заявка ASCS');
-   $mail->addAddress('dpo-ib@dvfu.ru', 'ДПО');
+   $mail->setFrom('mail', 'Заявка ASCS');
+   $mail->addAddress('mail', 'ДПО');
 
    $mail->Subject = 'Заявка на курс Администрирование и безопасность компьютерных систем';
    $mail->Body = 'Имя: <b>' .$name . '</b><br>Номер телефона: <b>' .$phone . '</b><br>Почта: <b>' .$email . '</b><br>Промокод: <b>' .$promocod . '</b>';
