@@ -1,9 +1,1 @@
-function downloadFile(url, filename) {
-    let link = document.getElementById('download');
-    link.href = url;
-    link.download = filename;
-}
-
-document.getElementById('download').addEventListener('click', function() {
-    downloadFile('download/program.pdf', 'program');
-});
+function downloadFile(d,o){let n=document.getElementById("download");n.href=d,n.download=o}document.getElementById("download").addEventListener("click",function(){downloadFile("download/program.pdf","program")});
