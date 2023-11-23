@@ -542,6 +542,10 @@ h2, h3, h4, h5, h6 {
   font-size: 25px;
 }
 
+.resume__text li {
+  margin-bottom: 5%;
+}
+
 .col__price {
   padding-bottom: 50px;
 }

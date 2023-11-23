@@ -2721,6 +2721,7 @@
 
   .hand__xs {
     display: inline;
+    width: 45%;
   }
 
   /* .main__price */
